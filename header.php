@@ -12,7 +12,7 @@
 	<![endif]-->
 
 
-	<title>Шаблон проекта</title>
+	<title>Анетта Орлова - Индивидуальная консультация c психологом, психологическая помощь, и групповые программы</title>
 
 	<!-- favocons -->
 	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon.png">
@@ -26,8 +26,8 @@
 	<!-- favocons -->
 
 	<!-- og -->
-	<meta property="og:title" content="Шаблон проекта">
-	<meta property="og:description" content="Описание проекта">
+	<meta property="og:title" content="Анетта Орлова">
+	<meta property="og:description" content="Индивидуальная консультация c психологом, психологическая помощь, и групповые программы">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="/img/og.jpg">
 	<!-- og -->

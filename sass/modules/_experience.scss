@@ -1,0 +1,47 @@
+.experience-sec {
+	background: url('../img/experience/bg-experience.jpg') no-repeat center bottom, #f6f8fa;
+	background-size: 100% auto;
+	@include res(l) {
+		background-size: auto auto;
+	}
+}
+
+.experience {}
+
+.experience__programm {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: $pad-xxl;
+	@include res(xl) {
+		padding-top: $pad-xl;
+	}
+	@include res(l) {
+		padding-top: $pad-l;
+	}
+	@include res(s) {
+		padding-top: $pad-m;
+	}
+	@include res(xs) {
+		padding-top: $pad-xs;
+	}
+}
+
+.experience__programm-item {
+	width: 20%;
+	padding-left: $pad-xs;
+	padding-right: $pad-xs;
+	@include res(s) {
+		padding-left: $pad-xxs;
+		padding-right: $pad-xxs;
+	}
+	@include res(xxs) {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+}

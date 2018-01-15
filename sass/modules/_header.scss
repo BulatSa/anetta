@@ -1,0 +1,148 @@
+.header-sec {
+	position: relative;
+	min-height: 956px;
+	padding-top: $pad-l;
+	padding-bottom: $pad-xxl;
+	background: url('../img/bg-header.jpg') no-repeat center bottom, #e6e9ee;
+
+	@include res(xl) {
+		min-height: 100vh;
+		padding-top: $pad-m;
+		background: url('../img/bg-header-note.jpg') no-repeat center bottom, #e6e9ee;
+		background-size: 100% auto;
+	}
+	@media screen and (min-height: 900px){
+		min-height: 956px;
+		background: url('../img/bg-header.jpg') no-repeat center bottom, #e6e9ee;
+	}
+	@include res(l) {
+		min-height: 510px;
+		padding-top: $pad-xs;
+		background: url('../img/bg-header-note.jpg') no-repeat center bottom, #e6e9ee;
+		background-size: 100% auto;
+	}
+	@include res(m) {
+		min-height: 660px;
+	}
+	@include res(s) {
+
+		padding-top: $pad-xxs;
+		padding-bottom: 410px;
+		background: url('../img/bg-header-mobile.jpg') no-repeat center bottom, #e6e9ee;
+		background-size: 100% auto;
+	}
+	@include res(xs) {
+		min-height: initial;
+		padding-bottom: 270px;
+	}
+	@include res(xxs) {
+		padding-bottom: 250px;
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -1px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 90px;
+		display: block;
+		background: url('../img/waves/bottom-head.svg') no-repeat;
+		background-position: 50% 100%;
+		background-size: 100% auto;
+		z-index: 1;
+	}
+}
+
+.header {}
+
+.header__top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	@include res(xxs) {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+.header__top-logo {
+	padding-right: 5px;
+	@include res(xxs) {
+		padding-right: 0;
+		padding-bottom: $pad-xxs;
+	}
+	p {
+		font-size: 36px;
+		font-weight: 100;
+		line-height: 1.2;
+		letter-spacing: 0.06em;
+		@include res(l) {
+			font-size: 32px;
+		}
+		@include res(s) {
+			font-size: 24px;
+		}
+	}
+	span {
+		display: block;
+		font-size: 14px;
+		font-weight: normal;
+		letter-spacing: initial;
+		@include res(s) {
+			font-size: 12px;
+		}
+	}
+}
+
+.header__top-contact {
+	padding-left: 5px;
+	text-align: right;
+	@include res(xxs) {
+		padding-left: 0;
+		text-align: center;
+	}
+	a {
+		font-size: 28px;
+		font-weight: 100;
+		line-height: 1.3;
+		@include res(l) {
+			font-size: 24px;
+		}
+		@include res(s) {
+			font-size: 20px;
+		}
+	}
+	span {
+		display: block;
+		font-size: 14px;
+		@include res(s) {
+			font-size: 12px;
+		}
+	}
+}
+
+.header__info {
+	max-width: 670px;
+	padding-top: 120px;
+	@include res(xl) {
+		max-width: 614px;
+	}
+	@include res(l) {
+		padding-top: $pad-l;
+		max-width: 540px;
+	}
+	@include res(s) {
+		padding-top: $pad-s;
+	}
+	.user-content {
+		padding-bottom: $pad-xl;
+		@include res(l) {
+			padding-bottom: $pad-s;
+		}
+		@include res(s) {
+			padding-bottom: $pad-xs;
+		}
+	}
+}

@@ -31,12 +31,20 @@
 }
 
 .container{
-	margin: 0 auto;
+	position: relative;
 	width: 100%;
 	max-width: $container_width;
-	position: relative;
-	padding-left: 16px;
-	padding-right: 16px;
+	margin: 0 auto;
+	padding-left: 14px;
+	padding-right: 14px;
+	@include res(l) {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	@include res(s) {
+		padding-left: $gutter-mobile;
+		padding-right: $gutter-mobile;
+	}
 }
 
 .row{
@@ -44,10 +52,18 @@
 	flex-wrap: wrap;
 	margin-left: -$gutter;
 	margin-right: -$gutter;
+	@include res(l) {
+		margin-left: -$gutter-mobile;
+		margin-right: -$gutter-mobile;
+	}
 
 	[class^="grid"]{
 		padding-left: $gutter;
 		padding-right: $gutter;
+		@include res(l) {
+			padding-left: $gutter-mobile;
+			padding-right: $gutter-mobile;
+		}
 	}
 
 	&--center {
@@ -61,6 +77,19 @@
 .row-ng{
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.def-sec {
+	padding-top: $pad-l;
+	padding-bottom: $pad-l;
+	@include res(l) {
+		padding-top: $pad-m;
+		padding-bottom: $pad-m;
+	}
+	@include res(s) {
+		padding-top: $pad-s;
+		padding-bottom: $pad-s;
+	}
 }
 
 .clearfix{

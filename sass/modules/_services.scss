@@ -1,0 +1,48 @@
+.services-sec {
+	min-height: 948px;
+	background: url('../img/services/bg-services.jpg') no-repeat center bottom, #f3fafa;
+	@include res(l) {
+		min-height: 510px;
+		background-size: 100% auto;
+	}
+	@include res(m) {
+		padding-bottom: 290px;
+		background-size: auto 360px;
+	}
+	@include res(s) {
+		min-height: initial;
+		padding-bottom: 300px;
+		background: url('../img/services/bg-services-mobile.jpg') no-repeat center bottom, #f3fafa;
+		background-size: auto 280px;
+	}
+}
+
+.services {}
+
+.services__info {
+	max-width: 645px;
+	padding-top: 220px;
+	padding-bottom: $pad-l;
+	@include res(xl) {
+		max-width: 614px;
+	}
+	@include res(l) {
+		padding-top: $pad-l;
+		max-width: 520px;
+	}
+	@include res(m) {
+		padding-bottom: 0;
+	}
+	@include res(s) {
+		padding-top: 0;
+	}
+	.user-content {
+		padding-bottom: $pad-m;
+		@include res(l) {
+			padding-bottom: $pad-s;
+		}
+		@include res(s) {
+			padding-bottom: $pad-xs;
+		}
+	}
+}

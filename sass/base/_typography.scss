@@ -12,6 +12,7 @@ a {
 }
 
 h1, .h1 {
+	display: block;
 	margin-bottom: $pad-s;
 	font-size: 60px;
 	font-weight: 100;
@@ -33,6 +34,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
+	display: block;
 	margin-bottom: $pad-xs;
 	font-size: 50px;
 	font-weight: 100;
@@ -53,6 +55,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
+	display: block;
 	margin-bottom: $pad-xxs;
 	font-size: 34px;
 	font-weight: 100;
@@ -75,6 +78,10 @@ h3, .h3 {
 	max-width: 910px;
 	margin: 0 auto;
 	text-align: center;
+	&--left {
+		margin: 0;
+		text-align: left;
+	}
 }
 .page-title__top {
 	display: block;
@@ -86,6 +93,12 @@ h3, .h3 {
 	@include res(s) {
 		font-size: 14px;
 	}
+}
+
+.rouble {
+	font-family: $rouble;
+	text-transform: none;
+	font-weight: normal;
 }
 
 .user-content {
@@ -101,6 +114,15 @@ h3, .h3 {
 	}
 	&--mini {
 		font-size: 16px;
+		@include res(s) {
+			font-size: 14px;
+		}
+		p {
+			font-size: 16px;
+			@include res(s) {
+				font-size: 14px;
+			}
+		}
 	}
 	&--white {
 		color: #fff;

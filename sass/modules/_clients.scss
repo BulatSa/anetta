@@ -32,6 +32,11 @@
 		padding-bottom: $pad-s;
 		text-align: center;
 	}
+	&:last-child {
+		@include res(s) {
+			padding-bottom: 0;
+		}
+	}
 }
 
 .clients__item-img {

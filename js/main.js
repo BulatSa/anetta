@@ -84,6 +84,42 @@ $(function () {
 
 
 /***********************
+Video Title Height BEGIN
+***********************/
+$(document).ready(function() {
+	if($('.video__item-title').length) {
+		var $videoTitle = $('.video__item .video__item-title');
+
+		function videoTitleHeight($videoTitle) {
+			$videoTitle.eq(0).css('height', 'initial');
+			var maxHeight = $videoTitle.eq(0).outerHeight();
+
+			$videoTitle.each(function(indx, element){
+				$(element).css('height', 'initial');
+				if ($(element).outerHeight() > maxHeight) {
+					maxHeight = $(element).height();
+				}
+				$(element).outerHeight(maxHeight);
+			});
+
+			$videoTitle.each(function(indx, element){
+				$(element).outerHeight(maxHeight);
+			});
+		}
+
+		videoTitleHeight($videoTitle);
+		$(window).resize(function(){
+			//$videoTitle = $('.video__item .video__item-title');
+			videoTitleHeight($videoTitle);
+		});
+	}
+});
+/***********************
+Video Title Height END
+***********************/
+
+
+/***********************
  fancybox BEGIN
  ***********************/
 function init_fancy() {

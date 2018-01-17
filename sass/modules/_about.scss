@@ -1,0 +1,90 @@
+.about-sec {
+	background: url("../img/about/bg-about.jpg") no-repeat center top;
+	@include res(xl) {
+		background: url("../img/about/bg-about-note.jpg") no-repeat center top;
+	}
+	@include res(l) {
+		background: url("../img/about/bg-about-tablet.jpg") no-repeat center top;
+	}
+}
+
+.about {}
+
+.about__info {
+	max-width: 580px;
+	margin: 0 auto;
+	@include res(xl) {
+		max-width: 540px;
+	}
+}
+
+.about__books {
+	display: none;
+	@include res(l) {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-top: $pad-xs;
+	}
+}
+
+.about__book {
+	padding-left: 10px;
+	padding-right: 10px;
+	@include res(s) {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+	img {
+		max-width: 100%;
+	}
+}
+
+.about__serts {
+	padding-top: $pad-xl;
+	text-align: center;
+	@include res(xl) {
+		padding-top: $pad-l;
+	}
+	@include res(l) {
+		padding-top: $pad-m;
+	}
+}
+
+.about__serts-slider {
+	margin-top: $pad-s;
+	margin-bottom: $pad-m;
+	@include res(l) {
+		margin-top: $pad-xs;
+		margin-bottom: $pad-s;
+	}
+	@include res(m) {
+		margin-bottom: $pad-xs;
+	}
+}
+
+.about__serts-slide {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	img {
+		display: block;
+		margin: 0 auto;
+		box-shadow: 5px 5px 10px 0 transparentize(#000, 0.5);
+	}
+}
+
+.about__serts-slider-descr {}
+
+.about__serts-slide-descr {
+	font-size: 14px;
+	p {
+
+	}
+	b {
+		display: block;
+	}
+	span {
+		display: block;
+	}
+}

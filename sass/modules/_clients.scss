@@ -37,6 +37,12 @@
 			padding-bottom: 0;
 		}
 	}
+	&--last {
+		padding-bottom: 0;
+		@include res(s) {
+			padding-bottom: $pad-s;
+		}
+	}
 }
 
 .clients__item-img {

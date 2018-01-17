@@ -202,6 +202,31 @@ $(function () {
 
 
 /***********************
+Slick BEGIN
+***********************/
+$(document).ready(function(){
+	$('.about__serts-slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		fade: true,
+		adaptiveHeight: true,
+		arrows: false
+	});
+
+	$('.about__serts-slider-descr').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.about__serts-slider',
+		fade: true,
+		focusOnSelect: true
+	});
+});
+/***********************
+Slick END
+***********************/
+
+
+/***********************
  Waypoints BEGIN
  ***********************/
 $(function () {

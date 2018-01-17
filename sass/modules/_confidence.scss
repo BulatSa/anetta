@@ -1,0 +1,73 @@
+.confidence-sec {
+	position: relative;
+	display: flex;
+	align-items: center;
+	min-height: 980px;
+	background: url("../img/confidence/bg-confidence.jpg") no-repeat center bottom, #edf7f8;
+	@include res(l) {
+		min-height: 510px;
+		background: url("../img/confidence/bg-confidence-tablet.jpg") no-repeat center bottom, #edf7f8;
+		background-size: 100% auto;
+	}
+	@include res(m) {
+		padding-bottom: 320px;
+		background: url("../img/confidence/bg-confidence-tablet-vert.jpg") no-repeat center bottom, #edf7f8;
+		background-size: auto 370px;
+	}
+	@include res(s) {
+		min-height: initial;
+		padding-bottom: 280px;
+		background: url("../img/confidence/bg-confidence-mobile.jpg") no-repeat center bottom, #edf7f8;
+		background-size: auto 280px;
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		top: -1px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 90px;
+		display: block;
+		background: url('../img/waves/bottom-video.svg') no-repeat;
+		background-position: 50% 0%;
+		background-size: 100% auto;
+		z-index: 1;
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -1px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 90px;
+		display: block;
+		background: url('../img/waves/top-head-about.svg') no-repeat;
+		background-position: 50% 100%;
+		background-size: 100% auto;
+		z-index: 1;
+	}
+}
+
+.confidence {
+	display: flex;
+	justify-content: flex-end;
+	@include res(m) {
+		justify-content: flex-start;
+	}
+}
+
+.confidence__info {
+	max-width: 580px;
+	@include res(l) {
+		max-width: 480px;
+	}
+	@include res(m) {
+		max-width: 520px;
+		padding-top: $pad-m;
+	}
+	@include res(s) {
+		padding-top: $pad-xxs;
+	}
+}

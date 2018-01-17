@@ -82,7 +82,7 @@
 				</div>
 			</div>
 
-			<div class="clients__item">
+			<div class="clients__item clients__item--last">
 				<div class="clients__item-img">
 					<img src="img/clients/client-3.png" alt="">
 				</div>
@@ -92,7 +92,7 @@
 					<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. Сделано это для того, чтобы пользователи могли найти себя среди этих типов клиентов и понять, что Анетта Орлова сможет помочь.</p>
 				</div>
 			</div>
-			<div class="clients__item">
+			<div class="clients__item clients__item--last">
 				<div class="clients__item-img">
 					<img src="img/clients/client-4.png" alt="">
 				</div>
@@ -192,6 +192,74 @@
 						<span class="btn__price"><span>7500</span><span class="rouble">c</span></span>
 					</a>
 					<span>цена указана за 1 часа консультации</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="confidence-sec def-sec">
+	<div class="confidence container">
+		<div class="confidence__info">
+			<div class="page-title page-title--left">
+				<span class="page-title__top">КОНФИДЕНЦИАЛЬНОСТЬ</span>
+				<p class="h1">Я не публикую отзывы и&nbsp;не&nbsp;афиширую тех, с&nbsp;кем сотрудничаю</p>
+				<div class="user-content">
+					<p>Мои клиенты — публичные люди, собственники бизнеса и я уважаю их право на конфиденциальность.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="about-sec def-sec">
+	<div class="about container">
+		<div class="about__info">
+			<div class="page-title">
+				<span class="page-title__top">БИОГРАФИЯ</span>
+				<p class="h1">Обо мне</p>
+			</div>
+			<div class="user-content">
+				<p>Сейчас Анетта Орлова – самый популярный и востребованный психолог на телевидении. Её приглашают в качестве консультанта на передачи «Пусть говорят», «Я подаю на развод», «Модный приговор» и многие другие. Недавно Орлову пригласили стать со-ведущей в программе «Дом вверх дном», которая идет на телеканале «ТВ Центр».</p>
+				<p>Анетта Орлова является успешным психологом, она часто консультирует своих клиентов, решая их личные и семейные проблемы. От звездных клиентов психолог отказывается, ведь у них зачастую очень запутанные проблемы и ситуации. За лоском и блеском, как правило, скрывается много дурного.</p>
+				<p>Орлова не только ведет передачи, но и пишет книги. На данный момент ею написано уже три издания в жанре популярной психологии. Последняя книга - «Мужчина твоей мечты. Найти. Привлечь. Приручить».</p>
+			</div>
+			<div class="about__books">
+				<div class="about__book">
+					<img src="img/about/book-1.png" alt="">
+				</div>
+				<div class="about__book">
+					<img src="img/about/book-2.png" alt="">
+				</div>
+			</div>
+			<div class="about__serts">
+				<p class="h2">Дипломы и сертификаты</p>
+				<div class="about__serts-slider">
+					<div class="about__serts-slide">
+						<img src="img/about/diplom-1.jpg" alt="">
+					</div>
+					<div class="about__serts-slide">
+						<img src="img/about/diplom-2.jpg" alt="">
+					</div>
+					<div class="about__serts-slide">
+						<img src="img/about/diplom-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="about__serts-slider-descr">
+					<div class="about__serts-slide-descr">
+						<p><b>Диплом ПП № 1765454</b>о профессиональной переподготовке</p>
+						<span>19 июня 2009 г.</span>
+					</div>
+					<div class="about__serts-slide-descr">
+						<p><b>Диплом ПП № 2765454</b>о профессиональной переподготовке</p>
+						<span>19 июня 2010 г.</span>
+					</div>
+					<div class="about__serts-slide-descr">
+						<p><b>Диплом ПП № 3765454</b>о профессиональной переподготовке</p>
+						<span>19 июня 2011 г.</span>
+					</div>
 				</div>
 			</div>
 		</div>

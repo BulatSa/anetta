@@ -212,13 +212,41 @@ $(document).ready(function(){
 		adaptiveHeight: true,
 		arrows: false
 	});
-
 	$('.about__serts-slider-descr').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		asNavFor: '.about__serts-slider',
+		nextArrow: '<a class="slick-next"></a>',
+		prevArrow: '<a class="slick-prev"></a>',
+		adaptiveHeight: true,
 		fade: true,
 		focusOnSelect: true
+	});
+
+	$('.television__slider-hand').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.television__slider-descr',
+		adaptiveHeight: true,
+		accessibility: false,
+		vertical: true,
+		verticalSwiping: true,
+		arrows: false
+		//infinite: false
+	});
+	$('.television__slider-descr').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.television__slider-hand',
+		nextArrow: '<a class="slick-next"></a>',
+		prevArrow: '<a class="slick-prev"></a>',
+		adaptiveHeight: true,
+		fade: true,
+		accessibility: false,
+		//vertical: true,
+		verticalSwiping: true,
+		focusOnSelect: true
+		//infinite: false
 	});
 });
 /***********************

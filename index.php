@@ -214,7 +214,7 @@
 </section>
 
 
-<section class="about-sec def-sec">
+<section class="about-sec def-sec-bottom">
 	<div class="about container">
 		<div class="about__info">
 			<div class="page-title">
@@ -260,6 +260,46 @@
 						<p><b>Диплом ПП № 3765454</b>о профессиональной переподготовке</p>
 						<span>19 июня 2011 г.</span>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="television-sec def-sec">
+	<div class="television container">
+		<div class="television__info">
+			<div class="page-title page-title--left">
+				<span class="page-title__top">ОБЩЕСТВЕННАЯ ДЕЯТЕЛЬНОСТЬ</span>
+				<p class="h1">Я активно занимаюсь общественной и телевизионной деятельностью, помогая людям стать успешными во&nbsp;многих аспектах повседневной и&nbsp;личной жизни
+				</p>
+			</div>
+		</div>
+		<div class="television__slider-wrap">
+			<div class="television__slider-descr">
+				<div class="television__slide-descr">
+					<a href="#" target="_blank">@anettaorlova</a>
+					<p>Часто меня приглашают экспертом на&nbsp;телепередачу Андрея Малахова “Пусть&nbsp;говорят”, где я разбираю разные сложные жизненные ситуации людей, находить разные решения.</p>
+				</div>
+				<div class="television__slide-descr">
+					<a href="#" target="_blank">@anettaorlova</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dignissimos dolor, dolore dolorum eaque earum excepturi explicabo laboriosam laudantium, minus nulla quam quidem recusandae repellat sequi sint soluta tenetur voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa cum, eos illum obcaecati sapiente veniam voluptates. Cumque deleniti dolore dolores doloribus ea odio perferendis quae, quam unde voluptatem! Illum!</p>
+				</div>
+				<div class="television__slide-descr">
+					<a href="#" target="_blank">@anettaorlova</a>
+					<p>я разбираю разные сложные жизненные ситуации людей, находить разные решения</p>
+				</div>
+			</div>
+			<div class="television__slider-hand">
+				<div class="television__slide-hand">
+					<a href="#" target="_blank"><img src="img/television/insta-1.jpg" alt=""></a>
+				</div>
+				<div class="television__slide-hand">
+					<a href="#" target="_blank"><img src="img/television/insta-2.jpg" alt=""></a>
+				</div>
+				<div class="television__slide-hand">
+					<a href="#" target="_blank"><img src="img/television/insta-1.jpg" alt=""></a>
 				</div>
 			</div>
 		</div>

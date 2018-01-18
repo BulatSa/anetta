@@ -5,10 +5,17 @@
 	}
 	@include res(l) {
 		background: url("../img/about/bg-about-tablet.jpg") no-repeat center top;
+		background-size: cover;
 	}
 }
 
-.about {}
+.about {
+	padding-bottom: $pad-s;
+	@include res(s) {
+		padding-top: $pad-xxs;
+		padding-bottom: $pad-xxs;
+	}
+}
 
 .about__info {
 	max-width: 580px;
@@ -61,6 +68,9 @@
 	@include res(m) {
 		margin-bottom: $pad-xs;
 	}
+	@include res(s) {
+		margin-bottom: $pad-xxs;
+	}
 }
 
 .about__serts-slide {
@@ -69,12 +79,76 @@
 	padding-bottom: 15px;
 	img {
 		display: block;
+		max-width: 100%;
 		margin: 0 auto;
 		box-shadow: 5px 5px 10px 0 transparentize(#000, 0.5);
 	}
 }
 
-.about__serts-slider-descr {}
+.about__serts-slider-descr {
+	max-width: 350px;
+	margin: 0 auto;
+	padding-left: $pad-s;
+	padding-right: $pad-s;
+	.slick-next {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		width: 30px;
+		height: 100%;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		opacity: 1;
+		&:hover {
+			&:after {
+				border-color: $link-hover;
+			}
+		}
+		&:after {
+			content: '';
+			position: relative;
+			top: 10px;
+			display: block;
+			width: 20px;
+			height: 20px;
+			margin: 0 auto;
+			border-right: 3px solid #1c3646;
+			border-bottom: 3px solid #1c3646;
+			border-radius: 0 2px 2px 2px;
+			transition: all 0.3s ease;
+			transform: rotate(-45deg) translate3d(0,0,0);
+		}
+	}
+	.slick-prev {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 30px;
+		height: 100%;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		opacity: 1;
+		&:hover {
+			&:after {
+				border-color: $link-hover;
+			}
+		}
+		&:after {
+			content: '';
+			position: relative;
+			top: 10px;
+			display: block;
+			width: 20px;
+			height: 20px;
+			margin: 0 auto;
+			border-left: 3px solid #1c3646;
+			border-bottom: 3px solid #1c3646;
+			border-radius: 2px 0 2px 2px;
+			transition: all 0.3s ease;
+			transform: rotate(45deg) translate3d(0,0,0);
+		}
+	}
+}
 
 .about__serts-slide-descr {
 	font-size: 14px;
@@ -86,5 +160,9 @@
 	}
 	span {
 		display: block;
+		padding-top: $pad-xxs;
+		@include res(s) {
+			padding-top: 5px;
+		}
 	}
 }

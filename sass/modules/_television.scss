@@ -1,0 +1,144 @@
+.television-sec {
+	position: relative;
+	background: url("../img/television/bg-television-hand.jpg") no-repeat center bottom,#1c3646;
+	&:before {
+		content: '';
+		position: absolute;
+		top: -89px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 90px;
+		display: block;
+		background: url('../img/waves/top-head-video.svg') no-repeat;
+		background-position: 50% 100%;
+		background-size: 100% auto;
+		z-index: 1;
+	}
+}
+
+.television {
+	color: #fff;
+}
+
+.television__info {
+	.page-title {
+		max-width: 980px;
+	}
+}
+
+.television__slider-wrap {
+	position: relative;
+	display: flex;
+	align-items: center;
+	min-height: 600px;
+	margin-top: $pad-l;
+	margin-bottom: $pad-xs;
+	overflow: hidden;
+}
+
+.television__slider-descr {
+	position: relative;
+	max-width: 620px;
+	padding-top: $pad-s;
+	padding-bottom: $pad-s;
+	padding-left: $pad-l;
+	//outline: none;
+	.slick-next {
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		&:hover {
+			&:after {
+				border-color: $link-hover;
+			}
+		}
+		&:after {
+			content: '';
+			position: relative;
+			top: 10px;
+			display: block;
+			width: 20px;
+			height: 20px;
+			margin: 0 auto;
+			border-right: 3px solid #fff;
+			border-bottom: 3px solid #fff;
+			border-radius: 0 2px 2px 2px;
+			transition: all 0.3s ease;
+			transform: rotate(45deg) translate3d(0,0,0);
+		}
+	}
+	.slick-prev {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		&:hover {
+			&:after {
+				border-color: $link-hover;
+			}
+		}
+		&:after {
+			content: '';
+			position: relative;
+			top: 10px;
+			display: block;
+			width: 20px;
+			height: 20px;
+			margin: 0 auto;
+			border-left: 3px solid #fff;
+			border-bottom: 3px solid #fff;
+			border-radius: 2px 0 2px 2px;
+			transform: rotate(135deg) translate3d(0,0,0);
+			transition: all 0.3s ease;
+		}
+	}
+}
+
+.television__slide-descr {
+	a {
+		display: inline-block;
+		margin-bottom: $pad-xxs;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: bold;
+		letter-spacing: 0.15em;
+		transition: all 0.3s ease;
+		&:hover {
+			color: #ffd33f;
+		}
+	}
+	p {
+		font-size: 18px;
+		font-style: italic;
+		font-weight: normal;
+	}
+}
+
+.television__slider-hand {
+	position: absolute;
+	top: 80px;
+	right: calc(50% - 374px);
+	width: 235px;
+	height: 425px;
+	overflow: hidden;
+}
+
+.television__slide-hand {
+	a {
+		display: block;
+		height: 425px;
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+}

@@ -232,6 +232,7 @@ $(document).ready(function(){
 		vertical: true,
 		verticalSwiping: true,
 		arrows: false
+		//centerMode: true
 		//infinite: false
 	});
 	$('.television__slider-descr').slick({
@@ -247,6 +248,55 @@ $(document).ready(function(){
 		verticalSwiping: true,
 		focusOnSelect: true
 		//infinite: false
+	});
+
+
+	var smiSliderCount = $('.smi__slide').length;
+	$('.smi__slider').on('init', function(event, slick, direction){
+		$('.smi__slider-count-all').text(smiSliderCount);
+	});
+
+	$('.smi__slider').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		adaptiveHeight: true,
+		arrows: false,
+		centerPadding: '0',
+		centerMode: true,
+		responsive: [
+			{
+				breakpoint: 680,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2
+				}
+			},
+			{
+				breakpoint: 360,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+		]
+	});
+
+
+	$('.smi__slider').on('afterChange', function(event, slick, direction){
+		var currentSlide = $('.smi__slider').slick('slickCurrentSlide') + 1;
+		$('.smi__slider-count-current').text(currentSlide);
+	});
+
+	$('.smi__slider-nav .slick-next').on('click', function (event) {
+		event.preventDefault();
+		$('.smi__slider').slick('slickNext');
+	});
+	$('.smi__slider-nav .slick-prev').on('click', function (event) {
+		event.preventDefault();
+		$('.smi__slider').slick('slickPrev');
 	});
 });
 /***********************

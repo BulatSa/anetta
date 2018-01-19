@@ -307,4 +307,113 @@
 </section>
 
 
+<section class="smi-sec def-sec">
+	<div class="smi container">
+		<div class="page-title">
+			<span class="page-title__top">СМИ ОБО МНЕ</span>
+			<p class="h1">Актуальное видео со мною</p>
+		</div>
+		<div class="smi__slider">
+			<div class="smi__slide">
+				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+					<span class="smi__slide-video">
+						<img src="img/smi/video-1.jpg" alt="">
+					</span>
+					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
+					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+				</a>
+			</div>
+
+			<div class="smi__slide">
+				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+					<span class="smi__slide-video">
+						<img src="img/smi/video-2.jpg" alt="">
+					</span>
+					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
+					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+				</a>
+			</div>
+
+			<div class="smi__slide">
+				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+					<span class="smi__slide-video">
+						<img src="img/smi/video-3.jpg" alt="">
+					</span>
+					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
+					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+				</a>
+			</div>
+
+			<div class="smi__slide">
+				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+					<span class="smi__slide-video">
+						<img src="img/smi/video-1.jpg" alt="">
+					</span>
+					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
+					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+				</a>
+			</div>
+
+			<div class="smi__slide">
+				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+					<span class="smi__slide-video">
+						<img src="img/smi/video-2.jpg" alt="">
+					</span>
+					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
+					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+				</a>
+			</div>
+
+			<div class="smi__slide">
+				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+					<span class="smi__slide-video">
+						<img src="img/smi/video-3.jpg" alt="">
+					</span>
+					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
+					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+				</a>
+			</div>
+		</div>
+		<div class="smi__slider-nav">
+			<a href="#" class="slick-next"></a>
+			<a href="#" class="slick-prev"></a>
+			<div class="smi__slider-counter">
+				<span class="smi__slider-count-current">1</span>
+				<span class="smi__slider-count-all"></span>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="plan-sec def-sec">
+	<div class="plan container">
+		<div class="page-title">
+			<span class="page-title__top">СХЕМА РАБОТЫ</span>
+			<p class="h1">Для Вашего комфорта я предлагаю
+				<span>простую и удобную схему работы</span>
+			</p>
+		</div>
+		<div class="plan__info">
+			<div class="plan__steps">
+				<div class="plan__step">
+					<span>01</span>
+					<p>Оставьте заявку или позвоните по телефону.</p>
+				</div>
+				<img src="img/plan/arrow.png" alt="">
+				<div class="plan__step">
+					<span>02</span>
+					<p>Мой ассистент поможет выбрать удобное для Вас время посещения.</p>
+				</div>
+				<img src="img/plan/arrow.png" alt="">
+				<div class="plan__step">
+					<span>03</span>
+					<p>Приходите на встречу и мы решаем ваши вопросы.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>

@@ -1,6 +1,12 @@
 .television-sec {
 	position: relative;
 	background: url("../img/television/bg-television-hand.jpg") no-repeat center bottom,#1c3646;
+	@include res(m) {
+		background-position: 52% 100%;
+	}
+	@include res(s) {
+		background: url("../img/television/bg-television-mobile.jpg") no-repeat center bottom,#1c3646;
+	}
 	&:before {
 		content: '';
 		position: absolute;
@@ -35,6 +41,11 @@
 	margin-top: $pad-l;
 	margin-bottom: $pad-xs;
 	overflow: hidden;
+	@include res(s) {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: $pad-xs;
+	}
 }
 
 .television__slider-descr {
@@ -43,7 +54,18 @@
 	padding-top: $pad-s;
 	padding-bottom: $pad-s;
 	padding-left: $pad-l;
-	//outline: none;
+	@include res(l) {
+		max-width: 560px;
+	}
+	@include res(m) {
+		max-width: 440px;
+		padding-left: 0;
+	}
+	@include res(s) {
+		max-width: 100%;
+		width: 100%;
+		margin-bottom: $pad-xs;
+	}
 	.slick-next {
 		position: absolute;
 		left: 0px;
@@ -111,6 +133,9 @@
 		font-weight: bold;
 		letter-spacing: 0.15em;
 		transition: all 0.3s ease;
+		@include res(m) {
+			margin-bottom: 5px;
+		}
 		&:hover {
 			color: #ffd33f;
 		}
@@ -119,22 +144,52 @@
 		font-size: 18px;
 		font-style: italic;
 		font-weight: normal;
+		@include res(l) {
+			font-size: 16px;
+		}
 	}
 }
 
 .television__slider-hand {
 	position: absolute;
-	top: 80px;
-	right: calc(50% - 374px);
-	width: 235px;
+	top: 78px;
+	right: calc(50% - 372px);
+	width: 234px;
 	height: 425px;
 	overflow: hidden;
+	@include res(l) {
+		top: 68px;
+		right: calc(50% - 373px);
+		height: 432px;
+	}
+	@include res(m) {
+		right: calc(50% - 350px);
+	}
+	@include res(s) {
+		position: relative;
+		top: initial;
+		right: initial;
+		width: 271px;
+		height: 540px;
+		padding-top: 50px;
+		padding-bottom: 48px;
+		padding-right: 15px;
+		padding-left: 18px;
+		background: url("../img/television/iphone-mobile.png") no-repeat center top;
+		background-size: contain;
+	}
 }
 
 .television__slide-hand {
 	a {
 		display: block;
 		height: 425px;
+		@include res(l) {
+			height: 432px;
+		}
+		@include res(s) {
+			height: 440px;
+		}
 	}
 	img {
 		display: block;

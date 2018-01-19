@@ -1,0 +1,83 @@
+.plan-sec {
+	position: relative;
+	min-height: 812px;
+	background: url("../img/plan/bg-plan.jpg") no-repeat top center;
+	@include res(l) {
+		background: url("../img/plan/bg-plan-mobile.jpg") no-repeat top center;
+	}
+	@include res(s) {
+		min-height: initial;
+		padding-bottom: 140px;
+		background: url("../img/plan/bg-plan-tablet.jpg") no-repeat bottom center,#f7f2ef;
+		background-size: auto 500px;
+	}
+	@include res(xxs) {
+		background: url("../img/plan/bg-plan-mobile.jpg") no-repeat bottom center,#f7f2ef;
+		background-size: auto 300px;
+	}
+	&:before {
+		@include res(l) {
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: -25px;
+			width: 100%;
+			height: 50px;
+			background: linear-gradient(to bottom, #eef8f9,#f7f2ef);
+		}
+	}
+}
+
+.plan {
+	@include res(l) {
+		padding-top: $pad-l;
+	}
+	@include res(s) {
+		padding-top: $pad-xs;
+	}
+}
+
+.plan__info {
+
+}
+
+.plan__steps {
+	max-width: 960px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 0 auto;
+	padding-top: $pad-xs;
+	@include res(s) {
+		flex-wrap: wrap;
+		padding-top: $pad-xxs;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		width: 12.5%;
+		margin-top: 5px;
+		@include res(s) {
+			display: none;
+		}
+	}
+}
+
+.plan__step {
+	width: 25%;
+	padding-left: $pad-xs;
+	@include res(s) {
+		width: 100%;
+		padding-bottom: $pad-xs;
+		padding-left: 0;
+	}
+	span {
+		display: block;
+		padding-bottom: $pad-xxs;
+		font-weight: bold;
+		@include res(s) {
+			padding-bottom: 5px;
+		}
+	}
+}

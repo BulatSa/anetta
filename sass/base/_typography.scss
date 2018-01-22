@@ -78,6 +78,27 @@ h3, .h3 {
 	max-width: 910px;
 	margin: 0 auto;
 	text-align: center;
+	.h1 {
+		span {
+			display: block;
+			font-size: 50px;
+			@include res(xl) {
+				font-size: 45px;
+			}
+			@include res(l) {
+				display: inline;
+				font-size: inherit;
+			}
+		}
+		a {
+			white-space: nowrap;
+			font-weight: normal;
+			transition: all 0.3s ease;
+			&:hover {
+				color: $link-hover;
+			}
+		}
+	}
 	&--left {
 		margin: 0;
 		text-align: left;

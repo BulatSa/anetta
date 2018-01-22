@@ -1,9 +1,34 @@
-.modal{
+.modal {
 	display: none;
 	width: 500px;
 	max-width: 100%;
+	padding: 24px;
+	color: #fff;
 	will-change: transform,opacity;
 	overflow: visible !important;
+	background: #1c3646;
+	@include res(l) {
+		padding: 20px;
+	}
+	@include res(s) {
+		padding: 20px 14px;
+	}
+	.btn-center {
+		padding-top: $pad-xs;
+		@include res(s) {
+			padding-top: 0;
+		}
+	}
+}
+
+.modal__title {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: $pad-s;
+	text-align: center;
+	@include res(s) {
+		padding-bottom: $pad-xs;
+	}
 }
 
 .fancybox-slide--current {

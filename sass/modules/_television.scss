@@ -19,7 +19,12 @@
 		background: url('../img/waves/top-head-video.svg') no-repeat;
 		background-position: 50% 100%;
 		background-size: 100% auto;
+		pointer-events: none;
 		z-index: 1;
+		@include res(s) {
+			height: 30px;
+			top: -29px;
+		}
 	}
 }
 

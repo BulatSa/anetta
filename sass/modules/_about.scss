@@ -82,6 +82,9 @@
 		max-width: 100%;
 		margin: 0 auto;
 		box-shadow: 5px 5px 10px 0 transparentize(#000, 0.5);
+		@include res(l) {
+			max-height: 200px;
+		}
 	}
 }
 

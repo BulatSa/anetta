@@ -2,19 +2,31 @@
 <div class="modals-sec">
 
 	<div id="modal-order" class="modal">
-		<p>Заказать обратный звонок</p>
-		<p>Оставьте заявку и наш администратор свяжется<br>с&nbsp;Вами в течение 10 минут</p>
+		<div class="modal__title">
+			<p class="h3">Заказать обратный звонок</p>
+			<p>Оставьте заявку и наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
+		</div>
 		<form class="ajax-form">
-			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="text-input" >
-			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="text-input" data-req="true">
-			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="text-input" data-req="true">
-			<input type="file" name="user_file" data-label="Файл">
-			<input type="hidden" value="Новая заявка" name="form_subject">
-			<button type="submit" class="btn">Отправить</button>
-			<label class="style-checkbox">
-				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-				<span>Принимаю <a href="#" target="_blank">условия обработки</a> персональных данных</span>
+			<label class="input__label">
+				<span>Введите имя</span>
+				<input type="text" class="input-text" placeholder="Иван" name="name" data-req="true" data-label="Имя пользователя">
 			</label>
+			<label class="input__label">
+				<span>Введите телефон</span>
+				<input type="tel" class="input-text" placeholder="+7 (917) 555-55-55" name="phone" data-label="Телефон">
+			</label>
+			<label class="input__label">
+				<span>Введите e-mail</span>
+				<input type="email" class="input-text" placeholder="ivan@domen.ru" name="email" data-label="Email">
+			</label>
+			<input type="hidden" value="Новая заявка" name="form_subject">
+			<label class="style-checkbox">
+				<input type="checkbox" name="user-agree" data-req="true" checked data-label="Пользователь согласился с условиями">
+				<span class="checkbox-personal">Нажимая на кнопку "Отправить", я даю согласие на обработку персональных данных и соглашаюсь с <a href="/politics.rtf" target="_blank" rel="nofollow">условиями политики конфиденциальности</a></span>
+			</label>
+			<div class="btn-center">
+				<button class="btn">отправить</button>
+			</div>
 		</form>
 	</div>
 

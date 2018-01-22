@@ -62,44 +62,52 @@
 		</div>
 		<div class="clients__list">
 			<div class="clients__item">
-				<div class="clients__item-img">
+				<div class="clients__item-img anim" style="background-image: url('../img/clients/client-1.png')">
 					<img src="img/clients/client-1.png" alt="">
 				</div>
-				<span class="clients__item-count">01</span>
-				<div class="user-content">
-					<h3>Публичные люди</h3>
-					<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. Сделано это для того, чтобы пользователи могли найти себя среди этих типов клиентов и понять, что Анетта Орлова сможет помочь.</p>
+				<div class="clients__item-text anim">
+					<span class="clients__item-count">01</span>
+					<div class="user-content">
+						<h3>Публичные люди</h3>
+						<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. Сделано это для того, чтобы пользователи могли найти себя среди этих типов клиентов и понять, что Анетта Орлова сможет помочь.</p>
+					</div>
 				</div>
 			</div>
 			<div class="clients__item">
-				<div class="clients__item-img">
+				<div class="clients__item-img anim" style="background-image: url('../img/clients/client-2.png')">
 					<img src="img/clients/client-2.png" alt="">
 				</div>
-				<span class="clients__item-count">02</span>
-				<div class="user-content">
-					<h3>Жены обеспеченных мужей</h3>
-					<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. Сделано это для того, чтобы пользователи могли найти себя среди этих типов клиентов и понять, что Анетта Орлова сможет помочь.</p>
+				<div class="clients__item-text anim">
+					<span class="clients__item-count">02</span>
+					<div class="user-content">
+						<h3>Жены обеспеченных мужей</h3>
+						<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. Сделано это для того, чтобы пользователи могли найти себя среди этих типов клиентов и понять, что Анетта Орлова сможет помочь.</p>
+					</div>
 				</div>
 			</div>
 
 			<div class="clients__item clients__item--last">
-				<div class="clients__item-img">
+				<div class="clients__item-img anim" style="background-image: url('../img/clients/client-3.png')">
 					<img src="img/clients/client-3.png" alt="">
 				</div>
-				<span class="clients__item-count">03</span>
-				<div class="user-content">
-					<h3>Семейные пары</h3>
-					<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. Сделано это для того, чтобы пользователи могли найти себя среди этих типов клиентов и понять, что Анетта Орлова сможет помочь.</p>
+				<div class="clients__item-text anim">
+					<span class="clients__item-count">03</span>
+					<div class="user-content">
+						<h3>Семейные пары</h3>
+						<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. Сделано это для того, чтобы пользователи могли найти себя среди этих типов клиентов и понять, что Анетта Орлова сможет помочь.</p>
+					</div>
 				</div>
 			</div>
 			<div class="clients__item clients__item--last">
-				<div class="clients__item-img">
+				<div class="clients__item-img anim" style="background-image: url('../img/clients/client-4.png')">
 					<img src="img/clients/client-4.png" alt="">
 				</div>
-				<span class="clients__item-count">04</span>
-				<div class="user-content">
-					<h3>Люди бизнеса</h3>
-					<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. Сделано это для того, чтобы пользователи могли найти себя среди этих типов клиентов и понять, что Анетта Орлова сможет помочь.</p>
+				<div class="clients__item-text anim">
+					<span class="clients__item-count">04</span>
+					<div class="user-content">
+						<h3>Люди бизнеса</h3>
+						<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. Сделано это для того, чтобы пользователи могли найти себя среди этих типов клиентов и понять, что Анетта Орлова сможет помочь.</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -238,13 +246,13 @@
 				<p class="h2">Дипломы и сертификаты</p>
 				<div class="about__serts-slider">
 					<div class="about__serts-slide">
-						<img src="img/about/diplom-1.jpg" alt="">
+						<a href="img/about/diplom-1.jpg" class="fancy"><img src="img/about/diplom-1.jpg" alt="Диплом ПП № 1765454 о профессиональной переподготовке"></a>
 					</div>
 					<div class="about__serts-slide">
-						<img src="img/about/diplom-2.jpg" alt="">
+						<a href="img/about/diplom-2.jpg" class="fancy"><img src="img/about/diplom-2.jpg" alt="Диплом ПП № 1765454 о профессиональной переподготовке"></a>
 					</div>
 					<div class="about__serts-slide">
-						<img src="img/about/diplom-1.jpg" alt="">
+						<a href="img/about/diplom-1.jpg" class="fancy"><img src="img/about/diplom-1.jpg" alt="Диплом ПП № 1765454 о профессиональной переподготовке"></a>
 					</div>
 				</div>
 				<div class="about__serts-slider-descr">
@@ -411,6 +419,79 @@
 					<p>Приходите на встречу и мы решаем ваши вопросы.</p>
 				</div>
 			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="contact-sec def-sec-top">
+	<div class="contact container">
+		<div class="page-title">
+			<span class="page-title__top">Свяжитесь со мною</span>
+			<p class="h1">Запишитесь на прием по телефону
+				<span><a href="tel:81234567890">+7 123 456 78 90</a> или заполните заявку ниже</span>
+			</p>
+		</div>
+		<div class="contact__block">
+			<form class="ajax-form">
+				<div class="contact__input-list">
+					<div class="contact__input">
+						<label class="input__label">
+							<span>Введите имя</span>
+							<input type="text" class="input-text" placeholder="Иван" name="name" data-req="true">
+						</label>
+					</div>
+					<div class="contact__input">
+						<label class="input__label">
+							<span>Введите телефон</span>
+							<input type="tel" class="input-text" placeholder="+7 (917) 555-55-55" name="phone">
+						</label>
+					</div>
+					<div class="contact__input">
+						<label class="input__label">
+							<span>Введите e-mail</span>
+							<input type="email" class="input-text" placeholder="ivan@domen.ru" name="email">
+						</label>
+					</div>
+				</div>
+				<div class="contact__comment">
+					<textarea name="" class="input-comment" placeholder="Задайте вопрос или укажите тему консультации" name="comment"></textarea>
+				</div>
+				<input type="hidden" value="Новая заявка" name="form_subject">
+				<div class="contact__submit">
+					<label class="style-checkbox">
+						<input type="checkbox" name="user-agree" data-req="true" checked data-label="Пользователь согласился с условиями">
+						<span class="checkbox-personal">Нажимая на кнопку "Отправить", я даю согласие на обработку персональных данных и соглашаюсь с <a href="/politics.rtf" target="_blank" rel="nofollow">условиями политики конфиденциальности</a></span>
+					</label>
+					<button class="btn">отправить</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+
+
+<section class="footer-sec def-sec-bottom">
+	<div class="footer container">
+		<div class="footer__about">
+			<span>© 2017 Психолог Анетта Орлова</span>
+		</div>
+		<div class="footer__soc-list">
+			<a href="#" target="_blank" class="footer__soc-vk">
+				<img src="img/icons/soc-vk.svg" alt="">
+			</a>
+			<a href="#" target="_blank" class="footer__soc-fb">
+				<img src="img/icons/soc-fb.svg" alt="">
+			</a>
+			<a href="#" target="_blank" class="footer__soc-insta">
+				<img src="img/icons/soc-insta.svg" alt="">
+			</a>
+			<a href="#" target="_blank" class="footer__soc-you">
+				<img src="img/icons/soc-you.svg" alt="">
+			</a>
+		</div>
+		<div class="footer__develop">
+			<span>Дизайн и разработка — <a href="#" target="_blank">Greencow</a></span>
 		</div>
 	</div>
 </section>

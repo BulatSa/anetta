@@ -1,0 +1,101 @@
+.contact-sec {
+	position: relative;
+	padding-bottom: 120px;
+	background: url("../img/form/bg-form.jpg") no-repeat center top;
+	@include res(l) {
+		padding-bottom: $pad-xl;
+	}
+	@include res(s) {
+		padding-bottom: $pad-l;
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		top: -89px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 90px;
+		display: block;
+		background: url('../img/waves/top-head-video.svg') no-repeat;
+		background-position: 50% 100%;
+		background-size: 100% auto;
+		z-index: 1;
+		pointer-events: none;
+		@include res(xs) {
+			top: -29px;
+			height: 30px;
+		}
+	}
+}
+
+.contact {
+	color: #fff;
+}
+
+.contact__block {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.contact__input-list {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: $pad-s;
+	@include res(m) {
+		margin-left: -$gutter-mobile;
+		margin-right: -$gutter-mobile;
+		padding-top: $pad-xs;
+	}
+	@include res(s) {
+		padding-top: $pad-xxs;
+	}
+}
+
+.contact__input {
+	width: 33.33333%;
+	padding-left: $gutter;
+	padding-right: $gutter;
+	@include res(m) {
+		padding-left: $gutter-mobile;
+		padding-right: $gutter-mobile;
+	}
+	@include res(s) {
+		width: 100%;
+	}
+}
+
+.contact__comment {
+	padding-left: $gutter;
+	padding-right: $gutter;
+	padding-bottom: $pad-s;
+	@include res(m) {
+		margin-left: -$gutter-mobile;
+		margin-right: -$gutter-mobile;
+		padding-left: $gutter-mobile;
+		padding-right: $gutter-mobile;
+		padding-bottom: $pad-xs;
+	}
+	@include res(s) {
+		padding-bottom: 15px;
+	}
+}
+
+.contact__submit {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: $gutter;
+	padding-right: $gutter;
+	@include res(m) {
+		margin-left: -$gutter-mobile;
+		margin-right: -$gutter-mobile;
+		padding-left: $gutter-mobile;
+		padding-right: $gutter-mobile;
+	}
+	@include res(s) {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}

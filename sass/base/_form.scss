@@ -60,7 +60,8 @@ label{cursor: pointer;}
 		}
 	}
 	&.error {
-		box-shadow: 0 0 5px 0 red inset;
+		box-shadow: 0 0 8px 0 red inset;
+		background: #fff8f7;
 	}
 }
 
@@ -158,6 +159,10 @@ label{cursor: pointer;}
 		font-weight: 300;
 		line-height: 1.2;
 		color: #fff;
+
+		@include res(s) {
+			font-size: 12px;
+		}
 
 
 		&:before{

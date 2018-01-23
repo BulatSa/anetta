@@ -26,7 +26,7 @@ $(function () {
 			}
 		});
 
-		$(this).find("[data-req='true']").on('focus', function () {
+		$(this).find("[data-req='true']").on('focus change', function () {
 			$(this).removeClass('error');
 		});
 
@@ -278,9 +278,6 @@ $(document).ready(function(){
 					slidesToScroll: 1
 				}
 			}
-			// You can unslick at a given breakpoint now by adding:
-			// settings: "unslick"
-			// instead of a settings object
 		]
 	});
 
@@ -313,6 +310,10 @@ $(function () {
 	}, {
 		offset: '85%'
 	});
+});
+
+$(window).on('load',function () {
+	Waypoint.refreshAll();
 });
 /***********************
  Waypoints END

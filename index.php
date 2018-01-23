@@ -4,7 +4,7 @@
 	<div class="header container">
 		<div class="header__top">
 			<div class="header__top-logo">
-				<p>Анетта Орлова<span>Психолог с опытом работы более 12&nbsp;лет</span></p>
+				<p>Анетта Орлова<span>Психолог с&nbsp;опытом работы более 12&nbsp;лет</span></p>
 			</div>
 			<div class="header__top-contact">
 				<a href="tel:84954567890">+7 (495) 456-78-90</a>
@@ -13,7 +13,7 @@
 		</div>
 		<div class="header__info">
 			<div class="user-content">
-				<h1>Индивидуальная консультация c психологом, психологическая помощь, и&nbsp;групповые программы
+				<h1>Индивидуальная консультация c&nbsp;психологом, психологическая помощь, и&nbsp;групповые программы
 				</h1>
 				<p>Самые высокие результаты терапии обеспечены моими знаниями и&nbsp;многолетним опытом.</p>
 			</div>
@@ -24,28 +24,28 @@
 
 <section class="experience-sec def-sec">
 	<div class="experience container">
-		<div class="page-title">
+		<div class="page-title anim">
 			<span class="page-title__top">МОЙ ОПЫТ</span>
-			<p class="h1">Миллионы женщин по всей стране
+			<p class="h1">Миллионы женщин по&nbsp;всей стране
 				прислушиваются к моим советам</p>
 			<div class="user-content">
 				<p>Являюсь со-ведущей в программе «Дом вверх дном», «Женщина руководство по эксплуатации. Прием по личным вопросам». Выступаю в качестве консультанта на передачи «Пусть говорят», «Я подаю на развод», «Модный приговор» и многие другие. </p>
 			</div>
 		</div>
-		<div class="experience__programm">
-			<div class="experience__programm-item">
+		<div class="experience__programm anim">
+			<div class="experience__programm-item experience__programm-item--1">
 				<img src="img/experience/logo-1.png" alt="">
 			</div>
-			<div class="experience__programm-item">
+			<div class="experience__programm-item experience__programm-item--2">
 				<img src="img/experience/logo-2.png" alt="">
 			</div>
-			<div class="experience__programm-item">
+			<div class="experience__programm-item experience__programm-item--3">
 				<img src="img/experience/logo-3.png" alt="">
 			</div>
-			<div class="experience__programm-item">
+			<div class="experience__programm-item experience__programm-item--4">
 				<img src="img/experience/logo-4.png" alt="">
 			</div>
-			<div class="experience__programm-item">
+			<div class="experience__programm-item experience__programm-item--5">
 				<img src="img/experience/logo-5.png" alt="">
 			</div>
 		</div>
@@ -55,10 +55,10 @@
 
 <section class="clients-sec def-sec">
 	<div class="clients container">
-		<div class="page-title">
+		<div class="page-title anim">
 			<span class="page-title__top">КОМУ Я МОГУ ПОМОЧЬ</span>
-			<p class="h1">Основные 4 категории клиентов,
-				с которыми я работаю</p>
+			<p class="h1">Основные 4&nbsp;категории клиентов,
+				с&nbsp;которыми я работаю</p>
 		</div>
 		<div class="clients__list">
 			<div class="clients__item">
@@ -117,15 +117,17 @@
 
 <section class="services-sec def-sec">
 	<div class="services container">
-		<div class="services__info">
+		<div class="services__info anim">
 			<div class="page-title page-title--left">
 				<span class="page-title__top">УСЛУГИ</span>
 				<p class="h1">Я помогу Вам найти решение даже в&nbsp;сложной и&nbsp;неоднозначной ситуации</p>
 				<div class="user-content">
-					<p>Существует обстоятельства, когда именно консультация психолога —&nbsp;это&nbsp;наилучший способ для&nbsp;выхода из&nbsp;проблемной ситуации. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium in magni molestias quibusdam sit! A, architecto autem consequuntur cupiditate delectus dolorum ducimus ex libero obcaecati praesentium provident rem suscipit vitae.</p>
+					<p>Существует обстоятельства, когда именно консультация психолога —&nbsp;это&nbsp;наилучший способ для&nbsp;выхода из&nbsp;проблемной ситуации.</p>
 				</div>
 			</div>
-			<a href="#" class="btn fancy" data-src="#modal-order">Записаться</a>
+			<div class="btn-wrap">
+				<a href="#" class="btn fancy" data-src="#modal-order">Записаться</a>
+			</div>
 		</div>
 	</div>
 </section>
@@ -133,8 +135,8 @@
 
 <section class="video-sec def-sec">
 	<div class="video container">
-		<div class="video__list">
-			<div class="video__item">
+		<div class="video__list anim">
+			<div class="video__item video__item--1">
 				<span class="video__item-count">01</span>
 				<div class="video__item-info-wrap">
 					<div class="video__item-title"><span class="h3">Индивидуальные консультации</span></div>
@@ -157,7 +159,7 @@
 				</div>
 			</div>
 
-			<div class="video__item">
+			<div class="video__item video__item--2">
 				<span class="video__item-count">02</span>
 				<div class="video__item-info-wrap">
 					<div class="video__item-title"><span class="h3">Семейная терапия</span></div>
@@ -180,7 +182,7 @@
 				</div>
 			</div>
 
-			<div class="video__item">
+			<div class="video__item video__item--3">
 				<span class="video__item-count">03</span>
 				<div class="video__item-info-wrap">
 					<div class="video__item-title"><span class="h3">Бизнес-тренинги, выступление спикером</span></div>
@@ -209,7 +211,7 @@
 
 <section class="confidence-sec def-sec">
 	<div class="confidence container">
-		<div class="confidence__info">
+		<div class="confidence__info anim">
 			<div class="page-title page-title--left">
 				<span class="page-title__top">КОНФИДЕНЦИАЛЬНОСТЬ</span>
 				<p class="h1">Я не публикую отзывы и&nbsp;не&nbsp;афиширую тех, с&nbsp;кем сотрудничаю</p>
@@ -225,16 +227,16 @@
 <section class="about-sec def-sec-bottom">
 	<div class="about container">
 		<div class="about__info">
-			<div class="page-title">
+			<div class="page-title anim">
 				<span class="page-title__top">БИОГРАФИЯ</span>
 				<p class="h1">Обо мне</p>
 			</div>
-			<div class="user-content">
+			<div class="user-content anim">
 				<p>Сейчас Анетта Орлова – самый популярный и востребованный психолог на телевидении. Её приглашают в качестве консультанта на передачи «Пусть говорят», «Я подаю на развод», «Модный приговор» и многие другие. Недавно Орлову пригласили стать со-ведущей в программе «Дом вверх дном», которая идет на телеканале «ТВ Центр».</p>
 				<p>Анетта Орлова является успешным психологом, она часто консультирует своих клиентов, решая их личные и семейные проблемы. От звездных клиентов психолог отказывается, ведь у них зачастую очень запутанные проблемы и ситуации. За лоском и блеском, как правило, скрывается много дурного.</p>
 				<p>Орлова не только ведет передачи, но и пишет книги. На данный момент ею написано уже три издания в жанре популярной психологии. Последняя книга - «Мужчина твоей мечты. Найти. Привлечь. Приручить».</p>
 			</div>
-			<div class="about__books">
+			<div class="about__books anim">
 				<div class="about__book">
 					<img src="img/about/book-1.png" alt="">
 				</div>
@@ -242,7 +244,7 @@
 					<img src="img/about/book-2.png" alt="">
 				</div>
 			</div>
-			<div class="about__serts">
+			<div class="about__serts anim">
 				<p class="h2">Дипломы и сертификаты</p>
 				<div class="about__serts-slider">
 					<div class="about__serts-slide">
@@ -277,14 +279,14 @@
 
 <section class="television-sec def-sec">
 	<div class="television container">
-		<div class="television__info">
+		<div class="television__info anim">
 			<div class="page-title page-title--left">
 				<span class="page-title__top">ОБЩЕСТВЕННАЯ ДЕЯТЕЛЬНОСТЬ</span>
-				<p class="h1">Я активно занимаюсь общественной и телевизионной деятельностью, помогая людям стать успешными во&nbsp;многих аспектах повседневной и&nbsp;личной жизни
+				<p class="h1">Я активно занимаюсь общественной и&nbsp;телевизионной деятельностью, помогая людям стать успешными во&nbsp;многих аспектах повседневной и&nbsp;личной жизни
 				</p>
 			</div>
 		</div>
-		<div class="television__slider-wrap">
+		<div class="television__slider-wrap anim">
 			<div class="television__slider-descr">
 				<div class="television__slide-descr">
 					<a href="#" target="_blank">@anettaorlova</a>
@@ -317,11 +319,11 @@
 
 <section class="smi-sec def-sec">
 	<div class="smi container">
-		<div class="page-title">
+		<div class="page-title anim">
 			<span class="page-title__top">СМИ ОБО МНЕ</span>
-			<p class="h1">Актуальное видео со мною</p>
+			<p class="h1">Актуальное видео со&nbsp;мною</p>
 		</div>
-		<div class="smi__slider">
+		<div class="smi__slider anim">
 			<div class="smi__slide">
 				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
 					<span class="smi__slide-video">
@@ -382,7 +384,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="smi__slider-nav">
+		<div class="smi__slider-nav anim">
 			<a href="#" class="slick-next"></a>
 			<a href="#" class="slick-prev"></a>
 			<div class="smi__slider-counter">
@@ -396,25 +398,25 @@
 
 <section class="plan-sec def-sec">
 	<div class="plan container">
-		<div class="page-title">
+		<div class="page-title anim">
 			<span class="page-title__top">СХЕМА РАБОТЫ</span>
-			<p class="h1">Для Вашего комфорта я предлагаю
+			<p class="h1">Для&nbsp;Вашего комфорта я предлагаю
 				<span>простую и удобную схему работы</span>
 			</p>
 		</div>
 		<div class="plan__info">
-			<div class="plan__steps">
-				<div class="plan__step">
+			<div class="plan__steps anim">
+				<div class="plan__step plan__step--1">
 					<span>01</span>
 					<p>Оставьте заявку или позвоните по телефону.</p>
 				</div>
-				<img src="img/plan/arrow.png" alt="">
-				<div class="plan__step">
+				<img src="img/plan/arrow.png" class="plan__step-img plan__step-img--1" alt="">
+				<div class="plan__step plan__step--2">
 					<span>02</span>
 					<p>Мой ассистент поможет выбрать удобное для Вас время посещения.</p>
 				</div>
-				<img src="img/plan/arrow.png" alt="">
-				<div class="plan__step">
+				<img src="img/plan/arrow.png" class="plan__step-img plan__step-img--2" alt="">
+				<div class="plan__step plan__step--3">
 					<span>03</span>
 					<p>Приходите на встречу и мы решаем ваши вопросы.</p>
 				</div>
@@ -426,19 +428,19 @@
 
 <section class="contact-sec def-sec-top">
 	<div class="contact container">
-		<div class="page-title">
+		<div class="page-title anim">
 			<span class="page-title__top">Свяжитесь со мною</span>
-			<p class="h1">Запишитесь на прием по телефону
+			<p class="h1">Запишитесь на&nbsp;прием по&nbsp;телефону
 				<span><a href="tel:81234567890">+7 123 456 78 90</a> или заполните заявку ниже</span>
 			</p>
 		</div>
-		<div class="contact__block">
+		<div class="contact__block anim">
 			<form class="ajax-form">
 				<div class="contact__input-list">
 					<div class="contact__input">
 						<label class="input__label">
-							<span>Введите имя</span>
-							<input type="text" class="input-text" placeholder="Иван" name="name" data-req="true">
+							<span>Введите имя*</span>
+							<input type="text" class="input-text" placeholder="Иван*" name="name" data-req="true">
 						</label>
 					</div>
 					<div class="contact__input">
@@ -460,7 +462,7 @@
 				<input type="hidden" value="Новая заявка" name="form_subject">
 				<div class="contact__submit">
 					<label class="style-checkbox">
-						<input type="checkbox" name="user-agree" data-req="true" checked data-label="Пользователь согласился с условиями">
+						<input type="checkbox" name="user-agree" data-req="true" checked data-label="Пользователь согласился с условиями" tabindex="1">
 						<span class="checkbox-personal">Нажимая на кнопку "Отправить", я даю согласие на обработку персональных данных и соглашаюсь с <a href="/politics.rtf" target="_blank" rel="nofollow">условиями политики конфиденциальности</a></span>
 					</label>
 					<button class="btn">отправить</button>
@@ -471,7 +473,7 @@
 </section>
 
 
-<section class="footer-sec def-sec-bottom">
+<section class="footer-sec">
 	<div class="footer container">
 		<div class="footer__about">
 			<span>© 2017 Психолог Анетта Орлова</span>

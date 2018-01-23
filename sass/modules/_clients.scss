@@ -3,7 +3,30 @@
 	background-size: cover;
 }
 
-.clients {}
+.clients {
+	.page-title {
+		.page-title__top, .h1, .user-content {
+			opacity: 0;
+			transition: all 0.1s ease;
+			transform: translate3d(0,30px,0);
+		}
+		&.animated {
+			.page-title__top, .h1, .user-content {
+				opacity: 1;
+				transform: translate3d(0,0,0);
+			}
+			.page-title__top {
+				transition: transform 1.5s ease, opacity 0.6s ease-in;
+			}
+			.h1 {
+				transition: transform 1.5s ease 0.2s, opacity 0.6s ease-in 0.2s;
+			}
+			.user-content {
+				transition: transform 1.5s ease 0.4s, opacity 0.6s ease-in 0.4s;
+			}
+		}
+	}
+}
 
 .clients__list {
 	display: flex;
@@ -12,6 +35,9 @@
 	flex-wrap: wrap;
 	max-width: 1000px;
 	margin: 0 auto;
+	@include res(m) {
+		margin-top: 15px;
+	}
 }
 
 .clients__item {
@@ -29,7 +55,7 @@
 		width: 100%;
 		padding-left: 0;
 		padding-right: 0;
-		padding-bottom: $pad-s;
+		padding-bottom: 35px;
 		text-align: center;
 	}
 	&:last-child {
@@ -40,15 +66,13 @@
 	&--last {
 		padding-bottom: 0;
 		@include res(s) {
-			padding-bottom: $pad-s;
+			padding-bottom: 35px;
 		}
 	}
 }
 
 .clients__item-img {
 	position: relative;
-	display: flex;
-	align-items: center;
 	width: 0%;
 	height: 175px;
 	margin-bottom: 5px;
@@ -56,9 +80,10 @@
 	background-position: center left;
 	background-repeat: no-repeat;
 	transition: all 0.3s ease;
-	transform: rotate(-1deg) translate3d(0,-4px,0);
+	transform: rotate(-1deg) translate3d(0,-1px,0);
 	//background-size: auto 100%;
 	@include res(l) {
+		width: initial;
 		height: 160px;
 		background: none!important;
 	}
@@ -67,7 +92,6 @@
 	}
 	@include res(s) {
 		height: 70px;
-		justify-content: center;
 	}
 	&.animated {
 		width: 100%;
@@ -76,25 +100,32 @@
 		transform: rotate(0) translate3d(0,0,0);
 	}
 	img {
+		position: absolute;
+		left: 0;
+		top: 50%;
 		display: block;
 		flex-shrink: 0;
 		max-width: 100%;
 		max-height: 100%;
+		height: auto;
 		opacity: 0;
+		transform: translate3d(0,-50%,0);
 		@include res(l) {
 			opacity: 1;
+		}
+		@include res(s) {
+			left: 50%;
+			transform: translate3d(-50%,-50%,0);
 		}
 	}
 }
 
 .clients__item-text {
 	opacity: 0;
-	transform: translate3d(0,5px,0);
 	transition: all 0.3s ease;
 	&.animated {
 		opacity: 1;
 		transition: all 1s ease;
-		transform: translate3d(0,0,0);
 	}
 }
 

@@ -19,15 +19,27 @@
 			padding-top: 0;
 		}
 	}
+	&--thanks {
+		text-align: center;
+	}
 }
 
 .modal__title {
-	padding-left: 20px;
-	padding-right: 20px;
 	padding-bottom: $pad-s;
 	text-align: center;
 	@include res(s) {
 		padding-bottom: $pad-xs;
+	}
+	.h3 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.modal__title-descr {
+	font-size: 16px;
+	@include res(l) {
+		font-size: 14px;
 	}
 }
 

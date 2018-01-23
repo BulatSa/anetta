@@ -1,5 +1,15 @@
 .footer-sec {
 	background: #f6f8fa;
+	padding-bottom: $pad-l;
+	@include res(l) {
+		padding-bottom: $pad-s;
+	}
+	@include res(m) {
+		padding-bottom: $pad-xs;
+	}
+	@include res(xs) {
+		padding-bottom: 30px;
+	}
 	&:before {
 		content: '';
 		position: absolute;
@@ -32,6 +42,7 @@
 	}
 	@include res(xs) {
 		flex-wrap: wrap;
+		padding-top: 20px;
 	}
 }
 

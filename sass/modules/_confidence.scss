@@ -33,6 +33,9 @@
 		background-position: 50% 0%;
 		background-size: 100% auto;
 		z-index: 1;
+		@include res(s) {
+			height: 30px;
+		}
 	}
 	&:after {
 		content: '';
@@ -62,12 +65,40 @@
 	max-width: 580px;
 	@include res(l) {
 		max-width: 480px;
+		overflow: hidden;
 	}
 	@include res(m) {
 		max-width: 520px;
 		padding-top: $pad-m;
 	}
 	@include res(s) {
+		padding-top: $pad-xs;
+	}
+	@include res(xs) {
 		padding-top: $pad-xxs;
+
+	}
+	.page-title__top, .h1, .user-content {
+		opacity: 0;
+		transition: all 0.1s ease;
+		transform: translate3d(30px,0,0);
+	}
+	&.animated {
+		.page-title__top, .h1, .user-content, .btn-wrap {
+			opacity: 1;
+			transform: translate3d(0px,0,0);
+		}
+		.page-title__top {
+			transition: transform 1.5s ease, opacity 0.6s ease-in;
+		}
+		.h1 {
+			transition: transform 1.5s ease 0.2s, opacity 0.6s ease-in 0.2s;
+		}
+		.user-content {
+			transition: transform 1.5s ease 0.4s, opacity 0.6s ease-in 0.4s;
+		}
+		.btn-wrap {
+			transition: transform 1.5s ease 0.6s, opacity 0.6s ease-in 0.6s;
+		}
 	}
 }

@@ -1,13 +1,13 @@
 {
-    "name": "AG Starter Kit",
+    "name": "\u0410\u043d\u0435\u0442\u0442\u0430 \u041e\u0440\u043b\u043e\u0432\u0430",
     "icons": [
         {
-            "src": "favicons/android-chrome-96x96.png",
-            "sizes": "96x96",
+            "src": "/favicons/android-chrome-144x144.png",
+            "sizes": "144x144",
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#e6e9ee",
+    "background_color": "#e6e9ee",
     "display": "standalone"
 }

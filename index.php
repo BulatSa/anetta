@@ -62,7 +62,7 @@
 		</div>
 		<div class="clients__list">
 			<div class="clients__item">
-				<div class="clients__item-img anim" style="background-image: url('../img/clients/client-1.png')">
+				<div class="clients__item-img anim" style="background-image: url('http://demo.penbrain.ru/anetta/img/clients/client-1.png')">
 					<img src="img/clients/client-1.png" alt="">
 				</div>
 				<div class="clients__item-text anim">
@@ -74,7 +74,7 @@
 				</div>
 			</div>
 			<div class="clients__item">
-				<div class="clients__item-img anim" style="background-image: url('../img/clients/client-2.png')">
+				<div class="clients__item-img anim" style="background-image: url('http://demo.penbrain.ru/anetta/img/clients/client-2.png')">
 					<img src="img/clients/client-2.png" alt="">
 				</div>
 				<div class="clients__item-text anim">
@@ -87,7 +87,7 @@
 			</div>
 
 			<div class="clients__item clients__item--last">
-				<div class="clients__item-img anim" style="background-image: url('../img/clients/client-3.png')">
+				<div class="clients__item-img anim" style="background-image: url('http://demo.penbrain.ru/anetta/img/clients/client-3.png')">
 					<img src="img/clients/client-3.png" alt="">
 				</div>
 				<div class="clients__item-text anim">
@@ -99,7 +99,7 @@
 				</div>
 			</div>
 			<div class="clients__item clients__item--last">
-				<div class="clients__item-img anim" style="background-image: url('../img/clients/client-4.png')">
+				<div class="clients__item-img anim" style="background-image: url('http://demo.penbrain.ru/anetta/img/clients/client-4.png')">
 					<img src="img/clients/client-4.png" alt="">
 				</div>
 				<div class="clients__item-text anim">

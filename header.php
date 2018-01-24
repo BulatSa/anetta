@@ -26,10 +26,10 @@
 	<!-- favocons -->
 
 	<!-- og -->
-	<meta property="og:title" content="Анетта Орлова">
+	<meta property="og:title" content="Анетта Орлова - Психолог с опытом работы более 12 лет">
 	<meta property="og:description" content="Индивидуальная консультация c психологом, психологическая помощь, и групповые программы">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="/img/og.jpg">
+	<meta property="og:image" content="http://demo.penbrain.ru/anetta/img/og.jpg">
 	<!-- og -->
 
 	<link href="css/main.css?<?=date("s");?>" rel="stylesheet">

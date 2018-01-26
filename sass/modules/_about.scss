@@ -116,6 +116,8 @@
 .about__serts-slider {
 	margin-top: $pad-s;
 	margin-bottom: $pad-m;
+	background: url("../img/about/bg-slider.png") no-repeat center center;
+	background-size: contain;
 	@include res(l) {
 		margin-top: $pad-xs;
 		margin-bottom: $pad-s;

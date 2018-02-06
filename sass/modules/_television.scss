@@ -1,6 +1,10 @@
 .television-sec {
 	position: relative;
 	background: url("../img/television/bg-television-hand.jpg") no-repeat center bottom,#1c3646;
+	@include large() {
+		background: url("../img/television/bg-television-large.jpg") no-repeat center bottom,#1c3646;
+		//background-size: cover;
+	}
 	@include res(m) {
 		background-position: 52% 100%;
 	}
@@ -21,6 +25,10 @@
 		background-size: 100% auto;
 		pointer-events: none;
 		z-index: 1;
+		@include large() {
+			height: 120px;
+			top: -119px;
+		}
 		@include res(s) {
 			height: 30px;
 			top: -29px;
@@ -191,10 +199,13 @@
 .television__slider-hand {
 	position: absolute;
 	top: 78px;
-	right: calc(50% - 372px);
+	right: calc(50% - 373px);
 	width: 234px;
 	height: 425px;
 	overflow: hidden;
+	@include large() {
+		right: calc(50% - 373px);
+	}
 	@include res(l) {
 		top: 68px;
 		right: calc(50% - 373px);
@@ -219,7 +230,7 @@
 }
 
 .television__slide-hand {
-	a {
+	span {
 		display: block;
 		height: 425px;
 		@include res(l) {

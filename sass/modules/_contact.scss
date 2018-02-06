@@ -2,6 +2,11 @@
 	position: relative;
 	padding-bottom: 120px;
 	background: url("../img/form/bg-form.jpg") no-repeat center top;
+	@include large() {
+		padding-bottom: 160px;
+		background: url("../img/form/bg-form-large.jpg") no-repeat center top;
+		background-size: cover;
+	}
 	@include res(l) {
 		padding-bottom: $pad-xl;
 	}
@@ -22,6 +27,10 @@
 		background-size: 100% auto;
 		z-index: 1;
 		pointer-events: none;
+		@include large() {
+			height: 120px;
+			top: -119px;
+		}
 		@include res(xs) {
 			top: -29px;
 			height: 30px;

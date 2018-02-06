@@ -2,6 +2,10 @@
 	position: relative;
 	min-height: 812px;
 	background: url("../img/plan/bg-plan.jpg") no-repeat top center;
+	@include large() {
+		background: url("../img/plan/bg-plan-large.jpg") no-repeat top center;
+		background-size: cover;
+	}
 	@include res(l) {
 		background: url("../img/plan/bg-plan-mobile.jpg") no-repeat top center;
 	}

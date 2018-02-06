@@ -4,6 +4,10 @@
 	align-items: center;
 	min-height: 980px;
 	background: url("../img/confidence/bg-confidence.jpg") no-repeat center bottom, #edf7f8;
+	@include large() {
+		background: url("../img/confidence/bg-confidence-large.jpg") no-repeat center bottom, #edf7f8;
+		background-size: cover;
+	}
 	@include res(l) {
 		min-height: 510px;
 		background: url("../img/confidence/bg-confidence-tablet.jpg") no-repeat center bottom, #edf7f8;
@@ -33,6 +37,9 @@
 		background-position: 50% 0%;
 		background-size: 100% auto;
 		z-index: 1;
+		@include large() {
+			height: 120px;
+		}
 		@include res(s) {
 			height: 30px;
 		}
@@ -44,12 +51,15 @@
 		left: 0;
 		right: 0;
 		width: 100%;
-		height: 90px;
+		height: 95px;
 		display: block;
 		background: url('../img/waves/top-head-about.svg') no-repeat;
 		background-position: 50% 100%;
 		background-size: 100% auto;
 		z-index: 1;
+		@include large() {
+			height: 120px;
+		}
 	}
 }
 
@@ -63,6 +73,7 @@
 
 .confidence__info {
 	max-width: 580px;
+	overflow: hidden;
 	@include res(l) {
 		max-width: 480px;
 		overflow: hidden;

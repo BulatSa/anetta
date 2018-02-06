@@ -141,9 +141,9 @@
 				<div class="video__item-info-wrap">
 					<div class="video__item-title"><span class="h3">Индивидуальные консультации</span></div>
 					<div class="video__item-info">
-						<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video__item-play fancy-video">
+						<a href="https://vimeo.com/191947042" class="video__item-play fancy-video">
 							<img src="img/video/preview.jpg" class="video__item-preview" alt="">
-							<img src="img/video/play-icon.png" class="video__item-previcon" alt="">
+							<img src="img/video/play-icon.svg" class="video__item-previcon" alt="">
 						</a>
 						<div class="user-content user-content--mini">
 							<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. Сделано это для того, чтобы пользователи могли найти себя среди этих типов клиентов и понять, что Анетта Орлова сможет помочь. </p>
@@ -164,9 +164,9 @@
 				<div class="video__item-info-wrap">
 					<div class="video__item-title"><span class="h3">Семейная терапия</span></div>
 					<div class="video__item-info">
-						<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video__item-play fancy-video">
+						<a href="https://vimeo.com/191947042" class="video__item-play fancy-video">
 							<img src="img/video/preview.jpg" class="video__item-preview" alt="">
-							<img src="img/video/play-icon.png" class="video__item-previcon" alt="">
+							<img src="img/video/play-icon.svg" class="video__item-previcon" alt="">
 						</a>
 						<div class="user-content user-content--mini">
 							<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. Сделано это для того, чтобы пользователи могли найти себя среди этих типов клиентов и понять, что Анетта Орлова сможет помочь. Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике.  </p>
@@ -187,9 +187,9 @@
 				<div class="video__item-info-wrap">
 					<div class="video__item-title"><span class="h3">Бизнес-тренинги, выступление спикером</span></div>
 					<div class="video__item-info">
-						<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video__item-play fancy-video">
+						<a href="https://vimeo.com/191947042" class="video__item-play fancy-video">
 							<img src="img/video/preview.jpg" class="video__item-preview" alt="">
-							<img src="img/video/play-icon.png" class="video__item-previcon" alt="">
+							<img src="img/video/play-icon.svg" class="video__item-previcon" alt="">
 						</a>
 						<div class="user-content user-content--mini">
 							<p>Здесь будет текст с кратким описанием проблем, задач, которые приходятся решать по своей практике. </p>
@@ -248,27 +248,60 @@
 				<p class="h2">Дипломы и сертификаты</p>
 				<div class="about__serts-slider">
 					<div class="about__serts-slide">
-						<a href="img/about/diplom-1.jpg" class="fancy"><img src="img/about/diplom-1.jpg" alt="Диплом ПП № 1765454 о профессиональной переподготовке"></a>
+						<a href="img/about/diplom-6-1.jpg" class="fancy" data-fancybox="sert-6"><img src="img/about/diplom-6.jpg" alt="Диплом кандидата наук"></a>
+						<a href="img/about/diplom-6-2.jpg" class="hide fancy" data-fancybox="sert-6"></a>
 					</div>
 					<div class="about__serts-slide">
-						<a href="img/about/diplom-2.jpg" class="fancy"><img src="img/about/diplom-2.jpg" alt="Диплом ПП № 1765454 о профессиональной переподготовке"></a>
+						<a href="img/about/diplom-5-1.jpg" class="fancy" data-fancybox="sert-5"><img src="img/about/diplom-5.jpg" alt="Диплом кандидата наук"></a>
+						<a href="img/about/diplom-5-2.jpg" class="hide fancy" data-fancybox="sert-5"></a>
 					</div>
 					<div class="about__serts-slide">
-						<a href="img/about/diplom-1.jpg" class="fancy"><img src="img/about/diplom-1.jpg" alt="Диплом ПП № 1765454 о профессиональной переподготовке"></a>
+						<a href="img/about/diplom-7-1.jpg" class="fancy" data-fancybox="sert-7"><img src="img/about/diplom-7.jpg" alt="Диплом кандидата наук"></a>
+					</div>
+					<div class="about__serts-slide">
+						<a href="img/about/diplom-4-1.jpg" class="fancy" data-fancybox="sert-4"><img src="img/about/diplom-4.jpg" alt="Диплом кандидата наук"></a>
+						<a href="img/about/diplom-4-2.jpg" class="hide fancy" data-fancybox="sert-4"></a>
+					</div>
+					<div class="about__serts-slide">
+						<a href="img/about/diplom-2-1.jpg" class="fancy" data-fancybox="sert-2"><img src="img/about/diplom-1.jpg" alt="Диплом кандидата наук"></a>
+						<a href="img/about/diplom-2-2.jpg" class="hide fancy" data-fancybox="sert-2"></a>
+					</div>
+					<div class="about__serts-slide">
+						<a href="img/about/diplom-1-1.jpg" class="fancy" data-fancybox="sert-1"><img src="img/about/diplom-1.jpg" alt="Диплом кандидата наук"></a>
+						<a href="img/about/diplom-1-2.jpg" class="hide fancy" data-fancybox="sert-1"></a>
+					</div>
+					<div class="about__serts-slide">
+						<a href="img/about/diplom-3-1.jpg" class="fancy" data-fancybox="sert-3"><img src="img/about/diplom-3.jpg" alt="ФПК Удостоверение"></a>
 					</div>
 				</div>
 				<div class="about__serts-slider-descr">
 					<div class="about__serts-slide-descr">
-						<p><b>Диплом ПП № 1765454</b>о профессиональной переподготовке</p>
+						<p><b>Сертификат №1016-065</b>Базовые техники эриксоновского гипноза</p>
+						<span>23 октября 2016 г.</span>
+					</div>
+					<div class="about__serts-slide-descr">
+						<p><b>Диплом №772402757692</b>Профессиональная переподготовка</p>
+						<span>08 июля 2015 г.</span>
+					</div>
+					<div class="about__serts-slide-descr">
+						<p><b>Свидетельство</b>Повышение квалификации</p>
+						<span>02 апреля 2011 г.</span>
+					</div>
+					<div class="about__serts-slide-descr">
+						<p><b>Диплом ПП №765454</b>Профессиональная переподготовка</p>
 						<span>19 июня 2009 г.</span>
 					</div>
 					<div class="about__serts-slide-descr">
-						<p><b>Диплом ПП № 2765454</b>о профессиональной переподготовке</p>
-						<span>19 июня 2010 г.</span>
+						<p><b>Диплом кандидата наук</b>Доктор экономики и менеджемента</p>
+						<span>24 января 2008 г.</span>
 					</div>
 					<div class="about__serts-slide-descr">
-						<p><b>Диплом ПП № 3765454</b>о профессиональной переподготовке</p>
-						<span>19 июня 2011 г.</span>
+						<p><b>Диплом кандидата наук</b>Ученая степень кандидата "Социологических наук"</p>
+						<span>23 сентября 2005 г.</span>
+					</div>
+					<div class="about__serts-slide-descr">
+						<p><b>ФПК Удостоверение</b>Секретарь-Референт</p>
+						<span>01 июня 1995 г.</span>
 					</div>
 				</div>
 			</div>
@@ -289,27 +322,55 @@
 		<div class="television__slider-wrap anim">
 			<div class="television__slider-descr">
 				<div class="television__slide-descr">
-					<a href="#" target="_blank">@anettaorlova</a>
-					<p>Часто меня приглашают экспертом на&nbsp;телепередачу Андрея Малахова “Пусть&nbsp;говорят”, где я разбираю разные сложные жизненные ситуации людей, находить разные решения.</p>
+					<a href="https://www.instagram.com/anettaorlova/" target="_blank">@anettaorlova</a>
+					<p>А мы сейчас на России 1 в программе «Доброе Утро» говорим про то, как Лайки в соцсетях могут влиять на Доверие в отношениях. Ну и про всякое такое.</p>
 				</div>
 				<div class="television__slide-descr">
-					<a href="#" target="_blank">@anettaorlova</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dignissimos dolor, dolore dolorum eaque earum excepturi explicabo laboriosam laudantium, minus nulla quam quidem recusandae repellat sequi sint soluta tenetur voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa cum, eos illum obcaecati sapiente veniam voluptates. Cumque deleniti dolore dolores doloribus ea odio perferendis quae, quam unde voluptatem! Illum!</p>
+					<a href="https://www.instagram.com/anettaorlova/" target="_blank">@anettaorlova</a>
+					<p>С Андреем рядом радуюсь, как ребёнок! Обожаю <a href="https://www.instagram.com/malakhov007/" target="_blank">@malakhov007</a> неравнодушный, талантливый и красивый человек!</p>
 				</div>
 				<div class="television__slide-descr">
-					<a href="#" target="_blank">@anettaorlova</a>
-					<p>я разбираю разные сложные жизненные ситуации людей, находить разные решения</p>
+					<a href="https://www.instagram.com/anettaorlova/" target="_blank">@anettaorlova</a>
+					<p>Сегодня было весело, выйдя со встречи за час до прямого эфира на радио, я обнаружила, что мою машинку перекрыли, безо всякой надежды на побег. Телефон водителя был указан , только циферки одной не хватило! А до эфира к тому времени, оставалось уже 50 минут. Мне повезло с водителем такси, ему бы в институте лекции читать, а не водителем подрабатывать! В результате , все хорошо, к эфиру успела, с <a href="https://www.instagram.com/shakhovroman/" target="_blank">@shakhovroman</a> всегда работать одно удовольствие, а за машиной придётся вернуться вечером. Вот и об этом тоже мы поговорили с Романом в эфире Страна Фм! </p>
+				</div>
+				<div class="television__slide-descr">
+					<a href="https://www.instagram.com/anettaorlova/" target="_blank">@anettaorlova</a>
+					<p>Вышла моя статья на АИФ. «Ядовитая любовь. Признаки токсичных отношений». Признак № 1. Схема «жертва и тиран»</p>
+				</div>
+				<div class="television__slide-descr">
+					<a href="https://www.instagram.com/anettaorlova/" target="_blank">@anettaorlova</a>
+					<p>Меня часто спрашивают, почему я хожу на ток- шоу Прямой Эфир с Андреем. Я подробно никогда не отвечала, потому что я действительно очень люблю Андрея и <a href="https://www.instagram.com/natalia_galkovich/" target="_blank">@natalia_galkovich</a> А сегодня захотелось. Программа Андрея меняет судьбы, спасает людей, а я иногда, чуть- чуть, могу влиять на ход полемики, этого чуть- чуть бывает, порой, достаточно, чтобы зрители посмотрели с иногг фокуса. Вчера я участвовала в Истории спасении несправедливо обвинённой девушки. Маленький ребёнок 2-х месяцев остался без отца, его убили и без матери, на неё завели уголовное дело. Вчера было очень приятно услышать слова благодарности от героини, её мамы, подруг. После предыдущей программы Андрея Малахова, ей вынесли оправдательный приговор, в нашей стране таких решений меньше 1 %. </p>
+				</div>
+				<div class="television__slide-descr">
+					<a href="https://www.instagram.com/anettaorlova/" target="_blank">@anettaorlova</a>
+					<p>С обожаемым <a href="https://www.instagram.com/malakhov007/" target="_blank">@malakhov007</a> и красавицей Жанной Эппле, сегодня была очень неоднозначная история! Думаю не одну передачу снимем .</p>
+				</div>
+				<div class="television__slide-descr">
+					<a href="https://www.instagram.com/anettaorlova/" target="_blank">@anettaorlova</a>
+					<p>Трудимся для Россия 1 Стараюсь в своём комментарии для Вести Дежурная часть смягчить подход к ситуации с молодыми веселыми курсантами</p>
 				</div>
 			</div>
 			<div class="television__slider-hand">
 				<div class="television__slide-hand">
-					<a href="#" target="_blank"><img src="img/television/insta-1.jpg" alt=""></a>
+					<span><img src="img/television/insta-1.jpg" alt=""></span>
 				</div>
 				<div class="television__slide-hand">
-					<a href="#" target="_blank"><img src="img/television/insta-2.jpg" alt=""></a>
+					<span><img src="img/television/insta-3.jpg" alt=""></span>
 				</div>
 				<div class="television__slide-hand">
-					<a href="#" target="_blank"><img src="img/television/insta-1.jpg" alt=""></a>
+					<span><img src="img/television/insta-4.jpg" alt=""></span>
+				</div>
+				<div class="television__slide-hand">
+					<span><img src="img/television/insta-5.jpg" alt=""></span>
+				</div>
+				<div class="television__slide-hand">
+					<span><img src="img/television/insta-6.jpg" alt=""></span>
+				</div>
+				<div class="television__slide-hand">
+					<span><img src="img/television/insta-7.jpg" alt=""></span>
+				</div>
+				<div class="television__slide-hand">
+					<span><img src="img/television/insta-8.jpg" alt=""></span>
 				</div>
 			</div>
 		</div>
@@ -325,62 +386,62 @@
 		</div>
 		<div class="smi__slider anim">
 			<div class="smi__slide">
-				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+				<a href="https://www.youtube.com/watch?v=u6lkTfqRZFg" class="fancy-video">
 					<span class="smi__slide-video">
 						<img src="img/smi/video-1.jpg" alt="">
 					</span>
-					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
-					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+					<!-- <span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span> -->
+					<span>Slow Life в мегаполисе<br>12:16</span>
 				</a>
 			</div>
 
 			<div class="smi__slide">
-				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+				<a href="https://www.youtube.com/watch?v=9rQbtA9rIJ8" class="fancy-video">
 					<span class="smi__slide-video">
 						<img src="img/smi/video-2.jpg" alt="">
 					</span>
-					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
-					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+					<!-- <span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span> -->
+					<span>Как моя болезнь привела меня в психологию?<br>14:05</span>
 				</a>
 			</div>
 
 			<div class="smi__slide">
-				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+				<a href="https://www.youtube.com/watch?v=N8QI0djk2cU" class="fancy-video">
 					<span class="smi__slide-video">
 						<img src="img/smi/video-3.jpg" alt="">
 					</span>
-					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
-					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+					<!-- <span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span> -->
+					<span>Удобный ребёнок. Родительский сценарий<br>14:11</span>
 				</a>
 			</div>
 
 			<div class="smi__slide">
-				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+				<a href="https://www.youtube.com/watch?v=Gv6oPQh_0Lo" class="fancy-video">
 					<span class="smi__slide-video">
-						<img src="img/smi/video-1.jpg" alt="">
+						<img src="img/smi/video-4.jpg" alt="">
 					</span>
-					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
-					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+					<!-- <span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span> -->
+					<span>Отношения с перверзным нарциссом<br>12:33</span>
 				</a>
 			</div>
 
 			<div class="smi__slide">
-				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+				<a href="https://www.youtube.com/watch?v=QEIK47pqZgs" class="fancy-video">
 					<span class="smi__slide-video">
-						<img src="img/smi/video-2.jpg" alt="">
+						<img src="img/smi/video-5.jpg" alt="">
 					</span>
-					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
-					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+					<!-- <span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span> -->
+					<span>Почему я не умею просить?<br>10:10</span>
 				</a>
 			</div>
 
 			<div class="smi__slide">
-				<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="fancy-video">
+				<a href="https://www.youtube.com/watch?v=k1FixpL-LNs" class="fancy-video">
 					<span class="smi__slide-video">
-						<img src="img/smi/video-3.jpg" alt="">
+						<img src="img/smi/video-6.jpg" alt="">
 					</span>
-					<span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span>
-					<span>Как преодолеть барьеры при достижении цели<br>3:15:00</span>
+					<!-- <span class="smi__slide-title">ПЕРВЫЙ КАНАЛ</span> -->
+					<span>Страх публичного выступления<br>16:08</span>
 				</a>
 			</div>
 		</div>
@@ -479,16 +540,16 @@
 			<span>© 2017 Психолог Анетта Орлова</span>
 		</div>
 		<div class="footer__soc-list">
-			<a href="#" target="_blank" class="footer__soc-vk">
+			<a href="https://vk.com/anettao" target="_blank" class="footer__soc-vk">
 				<img src="img/icons/soc-vk.svg" alt="">
 			</a>
-			<a href="#" target="_blank" class="footer__soc-fb">
+			<a href="https://www.facebook.com/orlova.anetta" target="_blank" class="footer__soc-fb">
 				<img src="img/icons/soc-fb.svg" alt="">
 			</a>
-			<a href="#" target="_blank" class="footer__soc-insta">
+			<a href="https://www.instagram.com/anettaorlova/" target="_blank" class="footer__soc-insta">
 				<img src="img/icons/soc-insta.svg" alt="">
 			</a>
-			<a href="#" target="_blank" class="footer__soc-you">
+			<a href="https://www.youtube.com/channel/UC_oOri_RydpYiw58K9_bpxQ" target="_blank" class="footer__soc-you">
 				<img src="img/icons/soc-you.svg" alt="">
 			</a>
 		</div>

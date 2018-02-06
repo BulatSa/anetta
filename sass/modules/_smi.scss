@@ -2,6 +2,10 @@
 	position: relative;
 	min-height: 796px;
 	background: url("../img/smi/bg-smi.jpg") no-repeat center top;
+	@include large() {
+		background: url("../img/smi/bg-smi-large.jpg") no-repeat center top;
+		background-size: cover;
+	}
 	@include res(l) {
 		min-height: initial;
 		background: #eef8f9;
@@ -19,6 +23,10 @@
 		background-position: 50% 100%;
 		background-size: 100% auto;
 		z-index: 1;
+		@include large() {
+			height: 120px;
+			top: -119px;
+		}
 	}
 }
 
@@ -105,9 +113,9 @@
 		top: 50%;
 		left: 50%;
 		display: block;
-		width: 80px;
-		height: 80px;
-		background: url("../img/smi/play-icon.png") no-repeat center center;
+		width: 60px;
+		height: 60px;
+		background: url("../img/video/play-icon.svg") no-repeat center center;
 		background-size: cover;
 		transition: all 0.3s ease;
 		transform: translate3d(-50%,-50%,0);

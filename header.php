@@ -23,6 +23,7 @@
 	<link rel="shortcut icon" href="favicons/favicon.ico">
 	<meta name="msapplication-config" content="favicons/browserconfig.xml">
 	<meta name="theme-color" content="#e6e9ee">
+	<meta name="pinterest" content="nopin" />
 	<!-- favocons -->
 
 	<!-- og -->

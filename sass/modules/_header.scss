@@ -5,16 +5,21 @@
 	padding-bottom: $pad-xxl;
 	background: url('../img/bg-header.jpg') no-repeat center bottom, #e6e9ee;
 
+	@include large() {
+		background: url('../img/bg-header-large.jpg') no-repeat center bottom, #e6e9ee;
+		background-size: cover;
+	}
+
 	@include res(xl) {
 		min-height: 100vh;
 		padding-top: $pad-m;
 		background: url('../img/bg-header-note.jpg') no-repeat center bottom, #e6e9ee;
 		background-size: 100% auto;
 	}
-	@media screen and (min-height: 900px){
-		min-height: 956px;
-		background: url('../img/bg-header.jpg') no-repeat center bottom, #e6e9ee;
-	}
+	//@media screen and (min-height: 900px){
+	//	min-height: 956px;
+	//	background: url('../img/bg-header.jpg') no-repeat center bottom, #e6e9ee;
+	//}
 	@include res(l) {
 		min-height: 510px;
 		padding-top: $pad-xs;
@@ -52,6 +57,9 @@
 		background-position: 50% 100%;
 		background-size: 100% auto;
 		z-index: 1;
+		@include large() {
+			height: 120px;
+		}
 	}
 }
 

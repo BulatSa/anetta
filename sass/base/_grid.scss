@@ -82,6 +82,10 @@
 .def-sec {
 	padding-top: $pad-l;
 	padding-bottom: $pad-l;
+	@include large() {
+		padding-top: $pad-xl;
+		padding-bottom: $pad-xl;
+	}
 	@include res(l) {
 		padding-top: $pad-m;
 		padding-bottom: $pad-m;
@@ -94,6 +98,9 @@
 
 .def-sec-bottom {
 	padding-bottom: $pad-l;
+	@include large() {
+		padding-bottom: $pad-xl;
+	}
 	@include res(l) {
 		padding-bottom: $pad-m;
 	}
@@ -104,6 +111,9 @@
 
 .def-sec-top {
 	padding-top: $pad-l;
+	@include large() {
+		padding-top: $pad-xl;
+	}
 	@include res(l) {
 		padding-top: $pad-m;
 	}

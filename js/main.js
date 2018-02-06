@@ -43,7 +43,7 @@ $(function () {
 			$.ajax({
 				type: "POST",
 				async: true,
-				url: "/send.php",
+				url: "/anetta/send.php",
 				cache: false,
 				contentType: false,
 				processData: false,
@@ -89,6 +89,7 @@ Video Title Height BEGIN
 $(document).ready(function() {
 	if($('.video__item-title').length) {
 		var $videoTitle = $('.video__item .video__item-title');
+		var $videoItem = $('.video__item');
 
 		function videoTitleHeight($videoTitle) {
 			$videoTitle.eq(0).css('height', 'initial');
@@ -108,8 +109,8 @@ $(document).ready(function() {
 		}
 
 		videoTitleHeight($videoTitle);
+
 		$(window).resize(function(){
-			//$videoTitle = $('.video__item .video__item-title');
 			videoTitleHeight($videoTitle);
 		});
 	}
@@ -128,7 +129,20 @@ function init_fancy() {
 		backFocus: false,
 		animationEffect: "zoom-in-out",
 		animationDuration: 300,
-		transitionEffect: "slide"
+		transitionEffect: "slide",
+		lang : 'ru',
+		i18n : {
+			'ru' : {
+				CLOSE       : 'Закрыть',
+				NEXT        : 'Дальше',
+				PREV        : 'Назад',
+				ERROR       : 'Не удается загрузить. <br/> Попробуйте позднее.',
+				PLAY_START  : 'Начать слайдшоу',
+				PLAY_STOP   : 'Остановить слайдшоу',
+				FULL_SCREEN : 'На весь экран',
+				THUMBS      : 'Превью'
+			}
+		}
 	});
 	$('.fancy-map').fancybox({
 		toolbar: false,
@@ -136,7 +150,20 @@ function init_fancy() {
 		backFocus: false,
 		animationEffect: "zoom-in-out",
 		animationDuration: 300,
-		transitionEffect: "slide"
+		transitionEffect: "slide",
+		lang : 'ru',
+		i18n : {
+			'ru' : {
+				CLOSE       : 'Закрыть',
+				NEXT        : 'Дальше',
+				PREV        : 'Назад',
+				ERROR       : 'Не удается загрузить. <br/> Попробуйте позднее.',
+				PLAY_START  : 'Начать слайдшоу',
+				PLAY_STOP   : 'Остановить слайдшоу',
+				FULL_SCREEN : 'На весь экран',
+				THUMBS      : 'Превью'
+			}
+		}
 	});
 }
 
@@ -148,6 +175,19 @@ function init_fancy__video() {
 		animationEffect: "zoom-in-out",
 		animationDuration: 300,
 		transitionEffect: "slide",
+		lang : 'ru',
+		i18n : {
+			'ru' : {
+				CLOSE       : 'Закрыть',
+				NEXT        : 'Дальше',
+				PREV        : 'Назад',
+				ERROR       : 'Не удается загрузить. <br/> Попробуйте позднее.',
+				PLAY_START  : 'Начать слайдшоу',
+				PLAY_STOP   : 'Остановить слайдшоу',
+				FULL_SCREEN : 'На весь экран',
+				THUMBS      : 'Превью'
+			}
+		},
 		youtube: {
 			controls: 1,
 			showinfo: 0,

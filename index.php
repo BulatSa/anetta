@@ -142,6 +142,7 @@
 					<div class="video__item-title"><span class="h3">Индивидуальные консультации</span></div>
 					<div class="video__item-info">
 						<a href="https://vimeo.com/191947042" class="video__item-play fancy-video">
+							<video src="" data-src="img/video/video-1.mp4" loop></video>
 							<img src="img/video/preview.jpg" class="video__item-preview" alt="">
 							<img src="img/video/play-icon.svg" class="video__item-previcon" alt="">
 						</a>
@@ -165,6 +166,7 @@
 					<div class="video__item-title"><span class="h3">Семейная терапия</span></div>
 					<div class="video__item-info">
 						<a href="https://vimeo.com/191947042" class="video__item-play fancy-video">
+							<video src="" data-src="img/video/video-1.mp4" loop></video>
 							<img src="img/video/preview.jpg" class="video__item-preview" alt="">
 							<img src="img/video/play-icon.svg" class="video__item-previcon" alt="">
 						</a>
@@ -188,6 +190,7 @@
 					<div class="video__item-title"><span class="h3">Бизнес-тренинги, выступление спикером</span></div>
 					<div class="video__item-info">
 						<a href="https://vimeo.com/191947042" class="video__item-play fancy-video">
+							<video src="" data-src="img/video/video-3.mp4" loop></video>
 							<img src="img/video/preview.jpg" class="video__item-preview" alt="">
 							<img src="img/video/play-icon.svg" class="video__item-previcon" alt="">
 						</a>

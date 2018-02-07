@@ -358,3 +358,39 @@ $(window).on('load',function () {
 /***********************
  Waypoints END
  ***********************/
+
+
+/***********************
+Video Play Preview BEGIN
+***********************/
+$(document).ready(function() {
+	$(window).resize(function () {
+		videoPlayPreview();
+	})
+
+	function videoPlayPreview() {
+		if($(window).width() > 1024) {
+			$('.video__item-play video').each(function (indx, el) {
+				if(!$(this).attr('src')) {
+					var videoSrc = $(this).data('src');
+					$(this).attr('src',videoSrc);
+				}
+
+			});
+
+			$('.video__item-play').hover(
+				function(){
+					$(this).find('video')[0].play();
+				},
+				function(){
+					$(this).find('video')[0].pause();
+				}
+			);
+		}
+	};
+
+	videoPlayPreview();
+});
+/***********************
+Video Play Preview END
+***********************/

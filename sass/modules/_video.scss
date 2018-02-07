@@ -158,13 +158,25 @@
 			transform: scale(1.2) translate3d(0,0,0);
 		}
 	}
+	video {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+		border-radius: 15px;
+		@include res(l) {
+			display: none;
+		}
+	}
 }
 
 .video__item-preview {
-	display: block;
+	display: none;
 	max-width: 100%;
 	margin: 0 auto;
 	border-radius: 15px;
+	@include res(l) {
+		display: block;
+	}
 }
 
 .video__item-previcon {

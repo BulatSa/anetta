@@ -34,10 +34,29 @@
 			top: -29px;
 		}
 	}
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 40%;
+		background: linear-gradient(to bottom, #1c3646, transparent);
+		z-index: 0;
+		@include large() {
+			height: 30%;
+		}
+		@include res(l) {
+			height: 20%;
+		}
+	}
 }
 
 .television {
+	position: relative;
 	color: #fff;
+	z-index: 1;
 }
 
 .television__info {

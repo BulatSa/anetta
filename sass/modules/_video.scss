@@ -155,7 +155,9 @@
 	margin: 0 auto $pad-s;
 	&:hover {
 		.video__item-previcon {
-			transform: scale(1.2) translate3d(0,0,0);
+			path {
+				fill: #e2eced;
+			}
 		}
 	}
 	video {
@@ -189,7 +191,10 @@
 	height: 55px;
 	margin: 0 auto;
 	transition: all 0.3s ease;
-	transform: scale(1) translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	path {
+		transition: all 0.3s ease;
+	}
 }
 
 .video__item-contact {

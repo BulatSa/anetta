@@ -384,6 +384,7 @@ $(document).ready(function() {
 				},
 				function(){
 					$(this).find('video')[0].pause();
+					$(this).find('video')[0].currentTime = 0;
 				}
 			);
 		}

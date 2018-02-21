@@ -36,10 +36,25 @@
 			height: 30px;
 		}
 	}
+	&:after {
+		@include large() {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			width: 100%;
+			height: 30%;
+			background: linear-gradient(to bottom, #1c3646, transparent);
+			z-index: 0;
+		}
+	}
 }
 
 .contact {
+	position: relative;
 	color: #fff;
+	z-index: 1;
 	.page-title {
 		.page-title__top, .h1, .user-content {
 			opacity: 0;

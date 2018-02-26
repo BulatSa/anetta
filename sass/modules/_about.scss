@@ -77,6 +77,9 @@
 		justify-content: center;
 		padding-top: $pad-xs;
 	}
+	@include res(s) {
+		padding-top: $pad-m;
+	}
 	&.animated {
 		opacity: 1;
 		transform: translate3d(0,0,0);

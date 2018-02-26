@@ -23,7 +23,7 @@ h1, .h1 {
 	}
 	@include res(l) {
 		font-size: 42px;
-		margin-bottom: $pad-xxs;
+		margin-bottom: $pad-xs;
 	}
 	@include res(m) {
 		font-size: 38px;
@@ -44,13 +44,13 @@ h2, .h2 {
 	}
 	@include res(l) {
 		font-size: 32px;
-		margin-bottom: $pad-xxs;
+		margin-bottom: 15px;
 	}
 	@include res(m) {
 		font-size: 28px;
 	}
 	@include res(s) {
-		font-size: 22px;
+		font-size: 24px;
 	}
 }
 
@@ -70,7 +70,7 @@ h3, .h3 {
 		font-size: 24px;
 	}
 	@include res(s) {
-		font-size: 18px;
+		font-size: 22px;
 	}
 }
 
@@ -103,17 +103,22 @@ h3, .h3 {
 		margin: 0;
 		text-align: left;
 	}
+	&--center-mobile {
+		@include res(s) {
+			text-align: center;
+		}
+	}
 }
 .page-title__top {
 	display: block;
 	padding-bottom: 5px;
 	font-size: 18px;
 	font-weight: bold;
+	text-transform: uppercase;
 	@include res(l) {
 		font-size: 16px;
 	}
 	@include res(s) {
-		padding-bottom: 2px;
 		font-size: 14px;
 	}
 }
@@ -128,6 +133,11 @@ h3, .h3 {
 	font-size: 18px;
 	@include res(s) {
 		font-size: 16px;
+	}
+	* {
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 	p {
 		margin-bottom: 1em;
@@ -154,4 +164,45 @@ h3, .h3 {
 	&--white {
 		color: #fff;
 	}
+}
+
+.user-slide-mobile-link {
+	position: relative;
+	display: none;
+	overflow: hidden;
+	@include res(s) {
+		display: inline-block;
+		padding-bottom: 12px;
+		&.active {
+			.open {
+				pointer-events: none;
+				opacity: 0;
+				transform: translate3d(0,100%,0);
+			}
+			.close {
+				opacity: 1;
+				transform: translate3d(0,0,0);
+			}
+		}
+	}
+	.open {
+		display: inline-block;
+		transition: all 0.3s ease;
+		color: $link-hover;
+		border-bottom: 1px dashed $link-hover;
+	}
+	.close {
+		position: absolute;
+		top: 0;
+		left: 0;
+		pointer-events: none;
+		border-bottom: 1px dashed $link-hover;
+		opacity: 0;
+		color: $link-hover;
+		transition: all 0.3s ease;
+		transform: translate3d(0,100%,0);
+	}
+}
+.user-slide-mobile {
+
 }

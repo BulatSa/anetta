@@ -35,21 +35,29 @@
 		max-width: 520px;
 	}
 	@include res(m) {
-		padding-bottom: 0;
+		padding-bottom: 6px;
 	}
 	@include res(s) {
 		margin-top: 0;
+		margin-bottom: -30px;
+		padding-bottom: 30px;
 		overflow: hidden;
 	}
 	.page-title__top {
 		opacity: 0;
 		transition: all 0.1s ease;
 		transform: translate3d(30px,0,0);
+		@include res(s) {
+			transform: translate3d(0,30px,0);
+		}
 	}
 	.h1 {
 		opacity: 0;
 		transition: all 0.1s ease;
 		transform: translate3d(30px,0,0);
+		@include res(s) {
+			transform: translate3d(0,30px,0);
+		}
 	}
 	.user-content {
 		padding-bottom: $pad-m;
@@ -61,12 +69,17 @@
 		}
 		@include res(s) {
 			padding-bottom: $pad-xs;
+			transform: translate3d(0,30px,0);
 		}
 	}
 	.btn-wrap {
 		opacity: 0;
 		transition: all 0.1s ease;
 		transform: translate3d(30px,0,0);
+		@include res(s) {
+			text-align: center;
+			transform: translate3d(0,30px,0);
+		}
 	}
 	&.animated {
 		.page-title__top, .h1, .user-content, .btn-wrap {

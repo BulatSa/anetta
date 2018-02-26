@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="format-detection" content="telephone=no">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!--[if lt IE 9]>
@@ -33,7 +34,7 @@
 	<meta property="og:image" content="http://demo.penbrain.ru/anetta/img/og.jpg">
 	<!-- og -->
 
-	<link href="css/main.css?<?=date("s");?>" rel="stylesheet">
+	<link href="css/main.css?<?=date("B");?>" rel="stylesheet">
 </head>
 
 <body>

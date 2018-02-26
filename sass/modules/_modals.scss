@@ -7,12 +7,19 @@
 	color: #fff;
 	will-change: transform,opacity;
 	overflow: visible !important;
+	opacity: 0;
 	background: #1c3646;
+	transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
 	@include res(l) {
 		padding: 20px;
 	}
 	@include res(s) {
-		padding: 20px 14px;
+		padding: 0px 25px;
+		vertical-align: top;
+		background: transparent;
+	}
+	@include res(xxxs) {
+		padding: 20px 15px;
 	}
 	.btn-center {
 		padding-top: $pad-xs;
@@ -31,9 +38,10 @@
 	@include res(s) {
 		padding-bottom: $pad-xs;
 	}
-	.h3 {
-		padding-left: 20px;
-		padding-right: 20px;
+	.h2 {
+		@include res(s) {
+			font-size: 26px;
+		}
 	}
 }
 
@@ -41,12 +49,13 @@
 	font-size: 16px;
 	@include res(l) {
 		font-size: 14px;
+		font-weight: 300;
 	}
 }
 
 .fancybox-slide--current {
 	.modal {
-
+		opacity: 1;
 	}
 }
 
@@ -63,7 +72,11 @@
 }
 
 .fancybox-bg{
+	opacity: 0;
 	background: rgba(0, 0, 0, 0.7);
+	@include res(s) {
+		background: #1c3646;
+	}
 }
 
 .fancybox-close-small,.fancybox-slide--image .fancybox-close-small, .fancybox-slide--iframe .fancybox-close-small{

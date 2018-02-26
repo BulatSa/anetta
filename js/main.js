@@ -87,33 +87,36 @@ $(function () {
 Video Title Height BEGIN
 ***********************/
 $(document).ready(function() {
-	if($('.video__item-title').length) {
-		var $videoTitle = $('.video__item .video__item-title');
-		var $videoItem = $('.video__item');
+	if ($(window).width() > 681) {
+		if($('.video__item-title').length) {
+			var $videoTitle = $('.video__item .video__item-title');
+			var $videoItem = $('.video__item');
 
-		function videoTitleHeight($videoTitle) {
-			$videoTitle.eq(0).css('height', 'initial');
-			var maxHeight = $videoTitle.eq(0).outerHeight();
+			function videoTitleHeight($videoTitle) {
+				$videoTitle.eq(0).css('height', 'initial');
+				var maxHeight = $videoTitle.eq(0).outerHeight();
 
-			$videoTitle.each(function(indx, element){
-				$(element).css('height', 'initial');
-				if ($(element).outerHeight() > maxHeight) {
-					maxHeight = $(element).height();
-				}
-				$(element).outerHeight(maxHeight);
-			});
+				$videoTitle.each(function(indx, element){
+					$(element).css('height', 'initial');
+					if ($(element).outerHeight() > maxHeight) {
+						maxHeight = $(element).height();
+					}
+					$(element).outerHeight(maxHeight);
+				});
 
-			$videoTitle.each(function(indx, element){
-				$(element).outerHeight(maxHeight);
+				$videoTitle.each(function(indx, element){
+					$(element).outerHeight(maxHeight);
+				});
+			}
+
+			videoTitleHeight($videoTitle);
+
+			$(window).resize(function(){
+				videoTitleHeight($videoTitle);
 			});
 		}
-
-		videoTitleHeight($videoTitle);
-
-		$(window).resize(function(){
-			videoTitleHeight($videoTitle);
-		});
 	}
+
 });
 /***********************
 Video Title Height END
@@ -370,13 +373,13 @@ $(document).ready(function() {
 
 	function videoPlayPreview() {
 		if($(window).width() > 1024) {
-			$('.video__item-play video').each(function (indx, el) {
-				if(!$(this).attr('src')) {
-					var videoSrc = $(this).data('src');
-					$(this).attr('src',videoSrc);
-				}
-
-			});
+			// $('.video__item-play video').each(function (indx, el) {
+			// 	if(!$(this).attr('src')) {
+			// 		var videoSrc = $(this).data('src');
+			// 		$(this).attr('src',videoSrc);
+			// 	}
+			//
+			// });
 
 			$('.video__item-play').hover(
 				function(){
@@ -394,4 +397,21 @@ $(document).ready(function() {
 });
 /***********************
 Video Play Preview END
+***********************/
+
+
+/***********************
+User Slide Mobile BEGIN
+***********************/
+$(document).ready(function() {
+	if($(window).width() < 681) {
+		$('.user-slide-mobile').slideUp();
+		$('.user-slide-mobile-link').on('click', function(){
+			$(this).next('.user-slide-mobile').slideToggle();
+			$(this).toggleClass('active');
+		},Waypoint.refreshAll());
+	}
+});
+/***********************
+User Slide Mobile END
 ***********************/

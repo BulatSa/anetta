@@ -35,13 +35,14 @@ $cross-bg-color--hover: #ffd340;
 	right: -$full_cross_size/2;
 	cursor: pointer;
 	transition: all 0.3s ease;
-	background-color: $cross-bg-color;
 	width: $full_cross_size;
 	height: $full_cross_size;
 	border-radius: 50%;
 	border: none;
+	background-color: #1c3646;
 	@include res(s){
-		top: 5px;
+		//position: fixed;
+		top: -40px;
 		right: 5px;
 	}
 

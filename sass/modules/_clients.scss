@@ -92,6 +92,7 @@
 	}
 	@include res(s) {
 		height: 70px;
+		margin-bottom: 10px;
 	}
 	&.animated {
 		width: 100%;
@@ -129,4 +130,8 @@
 	}
 }
 
-.clients__item-count {}
+.clients__item-count {
+	@include res(s) {
+		display: none;
+	}
+}

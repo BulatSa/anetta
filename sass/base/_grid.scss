@@ -37,13 +37,13 @@
 	margin: 0 auto;
 	padding-left: 14px;
 	padding-right: 14px;
-	@include res(l) {
-		padding-left: 12px;
-		padding-right: 12px;
-	}
 	@include res(s) {
-		padding-left: $gutter-mobile;
-		padding-right: $gutter-mobile;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	@include res(xxxs) {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
 
@@ -87,12 +87,8 @@
 		padding-bottom: $pad-xl;
 	}
 	@include res(l) {
-		padding-top: $pad-m;
-		padding-bottom: $pad-m;
-	}
-	@include res(s) {
-		padding-top: 35px;
-		padding-bottom: 35px;
+		padding-top: $pad-l;
+		padding-bottom: $pad-l;
 	}
 }
 
@@ -102,10 +98,7 @@
 		padding-bottom: $pad-xl;
 	}
 	@include res(l) {
-		padding-bottom: $pad-m;
-	}
-	@include res(s) {
-		padding-bottom: 35px;
+		padding-bottom: $pad-l;
 	}
 }
 
@@ -115,10 +108,7 @@
 		padding-top: $pad-xl;
 	}
 	@include res(l) {
-		padding-top: $pad-m;
-	}
-	@include res(s) {
-		padding-top: 35px;
+		padding-top: $pad-l;
 	}
 }
 
@@ -137,4 +127,10 @@
 .img-responsive{
 	width: 100%;
 	height: auto;
+}
+
+.hide-mobile {
+	@include res(s) {
+		display: none;
+	}
 }

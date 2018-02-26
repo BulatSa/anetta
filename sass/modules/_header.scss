@@ -30,18 +30,17 @@
 		min-height: 660px;
 	}
 	@include res(s) {
-
-		padding-top: $pad-xxs;
+		padding-top: $pad-s;
 		padding-bottom: 410px;
 		background: url('../img/bg-header-mobile.jpg') no-repeat center bottom, #e6e9ee;
 		background-size: 100% auto;
 	}
 	@include res(xs) {
 		min-height: initial;
-		padding-bottom: 270px;
+		padding-bottom: 290px;
 	}
 	@include res(xxs) {
-		padding-bottom: 250px;
+		padding-bottom: 270px;
 	}
 
 	&:after {
@@ -153,7 +152,7 @@
 			padding-bottom: $pad-s;
 		}
 		@include res(s) {
-			padding-bottom: $pad-xs;
+			padding-bottom: $pad-xxs;
 		}
 	}
 }

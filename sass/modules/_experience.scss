@@ -4,9 +4,25 @@
 	@include res(l) {
 		background-size: auto auto;
 	}
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 30%;
+		background: linear-gradient(to bottom, #f6f8fa, transparent);
+		z-index: 0;
+		@include res(l) {
+			content: none;
+		}
+	}
 }
 
 .experience {
+	position: relative;
+	z-index: 1;
 	.page-title {
 		.page-title__top, .h1, .user-content {
 			opacity: 0;
@@ -47,6 +63,10 @@
 	}
 	@include res(xs) {
 		padding-top: $pad-xs;
+	}
+	@include res(xxs) {
+		margin-left: -5px;
+		margin-right: -5px;
 	}
 	&.animated {
 		.experience__programm-item {

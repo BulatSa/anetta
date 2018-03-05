@@ -140,7 +140,7 @@
 				<div class="video__item-info-wrap">
 					<div class="video__item-title"><span class="h3">Индивидуальные консультации</span></div>
 					<div class="video__item-info">
-						<a href="https://vimeo.com/191947042" class="video__item-play fancy-video">
+						<a href="https://vimeo.com/257521680" class="video__item-play fancy-video">
 							<video loop preload>
 								<source src="img/video/video-1.mp4" type='video/mp4'>
 							</video>
@@ -168,9 +168,9 @@
 				<div class="video__item-info-wrap">
 					<div class="video__item-title"><span class="h3">Семейная терапия</span></div>
 					<div class="video__item-info">
-						<a href="https://vimeo.com/191947042" class="video__item-play fancy-video">
+						<a href="https://vimeo.com/257517648" class="video__item-play fancy-video">
 							<video loop preload>
-								<source src="img/video/video-1.mp4" type='video/mp4'>
+								<source src="img/video/video-3.mp4" type='video/mp4'>
 							</video>
 							<img src="img/video/preview-2.jpg" class="video__item-preview" alt="">
 							<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="55" height="55" class="video__item-previcon">
@@ -196,7 +196,7 @@
 				<div class="video__item-info-wrap">
 					<div class="video__item-title"><span class="h3">Бизнес-тренинги</span></div>
 					<div class="video__item-info">
-						<a href="https://vimeo.com/191947042" class="video__item-play fancy-video">
+						<a href="https://vimeo.com/257520987" class="video__item-play fancy-video">
 							<video loop preload>
 								<source src="img/video/video-3.mp4" type='video/mp4'>
 							</video>
@@ -268,30 +268,30 @@
 				<p class="h2">Дипломы и сертификаты</p>
 				<div class="about__serts-slider">
 					<div class="about__serts-slide">
-						<a href="img/about/diplom-6-1.jpg" class="fancy" data-fancybox="sert-6"><img src="img/about/diplom-6.jpg" alt="Диплом кандидата наук"></a>
+						<a href="img/about/diplom-6-1.jpg" class="fancy" data-fancybox="sert-6"><img src="img/about/diplom-cover-1.png" alt="Диплом кандидата наук"></a>
 						<a href="img/about/diplom-6-2.jpg" class="hide fancy" data-fancybox="sert-6"></a>
 					</div>
 					<div class="about__serts-slide">
-						<a href="img/about/diplom-5-1.jpg" class="fancy" data-fancybox="sert-5"><img src="img/about/diplom-5.jpg" alt="Диплом кандидата наук"></a>
+						<a href="img/about/diplom-5-1.jpg" class="fancy" data-fancybox="sert-5"><img src="img/about/diplom-cover-2.png" alt="Диплом кандидата наук"></a>
 						<a href="img/about/diplom-5-2.jpg" class="hide fancy" data-fancybox="sert-5"></a>
 					</div>
 					<div class="about__serts-slide">
-						<a href="img/about/diplom-7-1.jpg" class="fancy" data-fancybox="sert-7"><img src="img/about/diplom-7.jpg" alt="Диплом кандидата наук"></a>
+						<a href="img/about/diplom-7-1.jpg" class="fancy" data-fancybox="sert-7"><img src="img/about/diplom-cover-3.png" alt="Диплом кандидата наук"></a>
 					</div>
 					<div class="about__serts-slide">
-						<a href="img/about/diplom-4-1.jpg" class="fancy" data-fancybox="sert-4"><img src="img/about/diplom-4.jpg" alt="Диплом кандидата наук"></a>
+						<a href="img/about/diplom-4-1.jpg" class="fancy" data-fancybox="sert-4"><img src="img/about/diplom-cover-2.png" alt="Диплом кандидата наук"></a>
 						<a href="img/about/diplom-4-2.jpg" class="hide fancy" data-fancybox="sert-4"></a>
 					</div>
 					<div class="about__serts-slide">
-						<a href="img/about/diplom-2-1.jpg" class="fancy" data-fancybox="sert-2"><img src="img/about/diplom-1.jpg" alt="Диплом кандидата наук"></a>
+						<a href="img/about/diplom-2-1.jpg" class="fancy" data-fancybox="sert-2"><img src="img/about/diplom-cover-1.png" alt="Диплом кандидата наук"></a>
 						<a href="img/about/diplom-2-2.jpg" class="hide fancy" data-fancybox="sert-2"></a>
 					</div>
 					<div class="about__serts-slide">
-						<a href="img/about/diplom-1-1.jpg" class="fancy" data-fancybox="sert-1"><img src="img/about/diplom-1.jpg" alt="Диплом кандидата наук"></a>
+						<a href="img/about/diplom-1-1.jpg" class="fancy" data-fancybox="sert-1"><img src="img/about/diplom-cover-2.png" alt="Диплом кандидата наук"></a>
 						<a href="img/about/diplom-1-2.jpg" class="hide fancy" data-fancybox="sert-1"></a>
 					</div>
 					<div class="about__serts-slide">
-						<a href="img/about/diplom-3-1.jpg" class="fancy" data-fancybox="sert-3"><img src="img/about/diplom-3.jpg" alt="ФПК Удостоверение"></a>
+						<a href="img/about/diplom-3-1.jpg" class="fancy" data-fancybox="sert-3"><img src="img/about/diplom-cover-3.png" alt="ФПК Удостоверение"></a>
 					</div>
 				</div>
 				<div class="about__serts-slider-descr">
@@ -316,7 +316,7 @@
 						<span>24 января 2008 г.</span>
 					</div>
 					<div class="about__serts-slide-descr">
-						<p><b>Диплом кандидата наук</b>Ученая степень кандидата "Социологических наук"</p>
+						<p><b>Диплом кандидата наук</b>Ученая степень "Социологических наук"</p>
 						<span>23 сентября 2005 г.</span>
 					</div>
 					<div class="about__serts-slide-descr">

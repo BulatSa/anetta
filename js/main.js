@@ -251,6 +251,7 @@ $(document).ready(function(){
 	$('.about__serts-slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
+		infinite: false,
 		fade: true,
 		adaptiveHeight: true,
 		arrows: false
@@ -263,6 +264,7 @@ $(document).ready(function(){
 		prevArrow: '<a class="slick-prev"></a>',
 		adaptiveHeight: true,
 		fade: true,
+		infinite: false,
 		focusOnSelect: true
 	});
 
